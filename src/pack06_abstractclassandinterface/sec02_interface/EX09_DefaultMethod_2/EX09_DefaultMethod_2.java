@@ -1,4 +1,4 @@
-package pack06_abstractclassandinterface.sec02_interface.EX09_DefaultMethod2_2;
+package pack06_abstractclassandinterface.sec02_interface.EX09_DefaultMethod_2;
 
 interface A {
 	default void abc(){
@@ -14,7 +14,7 @@ class B implements A{
 	}	
 }
 
-public class EX09_DefaultMethod2_2 {
+public class EX09_DefaultMethod_2 {
 	public static void main(String[] args) {
 		//#1. B 객체 생성 및 메서드 호출
 		B b = new B();

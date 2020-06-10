@@ -1,4 +1,4 @@
-package pack06_abstractclassandinterface.sec02_interface.EX08_DefaultMethod;
+package pack06_abstractclassandinterface.sec02_interface.EX08_DefaultMethod_1;
 
 interface A {
 	void abc(); //2020년 개발
@@ -24,7 +24,7 @@ class C implements A {
 	};
 }
 
-public class EX08_DefaultMethod {
+public class EX08_DefaultMethod_1 {
 	public static void main(String[] args) {
 		//#1. B 객체 생성 및 메서드 호출
 		B b = new B();
