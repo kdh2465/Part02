@@ -1,5 +1,7 @@
 package pack05_inheritanceandpolymorphism.sec03_methodoverriding.EX06_MethodOverriding_1;
 
+/*메서드 오버라이딩의 기본 동작*/
+
 class A {
 	void print() {
 		System.out.println("A 클래스");

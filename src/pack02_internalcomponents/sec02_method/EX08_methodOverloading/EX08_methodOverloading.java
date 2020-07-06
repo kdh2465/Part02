@@ -1,6 +1,8 @@
 
 package pack02_internalcomponents.sec02_method.EX08_methodOverloading;
 
+/*메서드의 오버로딩(Overloading)*/
+
 public class EX08_methodOverloading {
 	public static void main(String[] args) {
 		

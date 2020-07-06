@@ -1,5 +1,7 @@
 package pack02_internalcomponents.sec02_method.EX06_effectOfPrimaryDataArgument;
 
+/*기본자료형 매개개변수 값의 변화*/
+
 public class EX06_effectOfPrimaryDataArgument {
 	public static void main(String[] args) {
 		
@@ -18,6 +20,6 @@ public class EX06_effectOfPrimaryDataArgument {
 	public static int twice(int a){
 		a=a*2;		
 		return a;
-	}
-		
+	}		
 }
+

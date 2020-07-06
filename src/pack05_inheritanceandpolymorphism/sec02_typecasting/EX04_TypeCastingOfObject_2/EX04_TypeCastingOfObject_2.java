@@ -1,16 +1,18 @@
 package pack05_inheritanceandpolymorphism.sec02_typecasting.EX04_TypeCastingOfObject_2;
 
+/*선언타입에 따른 사용가능한 멤버*/
+
 class A {
 	int m=3;
 	void abc(){
-		System.out.println("E 클래스");
+		System.out.println("A 클래스");
 	}
 }
 
 class B extends A{
 	int n=4;
 	void bcd(){
-		System.out.println("F 클래스");
+		System.out.println("B 클래스");
 	}
 }
 

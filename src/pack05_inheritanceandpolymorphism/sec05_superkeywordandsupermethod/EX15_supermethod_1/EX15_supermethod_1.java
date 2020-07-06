@@ -1,5 +1,7 @@
 package pack05_inheritanceandpolymorphism.sec05_superkeywordandsupermethod.EX15_supermethod_1;
 
+/*super() 메서드의 기능 및 컴파일에 의한 자동추가 super()*/
+
 class A {
 	A() {
 		System.out.println("A 생성자");

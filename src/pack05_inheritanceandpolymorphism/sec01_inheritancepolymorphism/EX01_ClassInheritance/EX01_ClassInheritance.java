@@ -1,5 +1,7 @@
 package pack05_inheritanceandpolymorphism.sec01_inheritancepolymorphism.EX01_ClassInheritance;
 
+/*클래스의 상속과 사용가능한 멤버*/
+
 class Human{
 	String name;
 	int age;

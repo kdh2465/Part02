@@ -1,5 +1,7 @@
 package pack05_inheritanceandpolymorphism.sec03_methodoverriding.EX08_OverridingVsOverloading;
 
+/*메서드 오버라이딩 vs. 메서드 오버로딩*/
+
 class A {
 	void print1() {
 		System.out.println("A 클래스 print1");

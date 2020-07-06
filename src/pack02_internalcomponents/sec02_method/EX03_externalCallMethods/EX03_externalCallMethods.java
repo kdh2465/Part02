@@ -1,5 +1,7 @@
 package pack02_internalcomponents.sec02_method.EX03_externalCallMethods;
 
+/*클래스 외부에서의 메서드 호출*/
+
 class A {
 	//#. 리턴타입:void + 매개변수: 없음
 	void print() {
@@ -42,7 +44,6 @@ public class EX03_externalCallMethods {
 		System.out.println(result);	//8.2
 		
 		a.printMonth(5); 	//5월 입니다.
-		a.printMonth(15);	//잘못된 입력
-		
+		a.printMonth(15);	//잘못된 입력		
 	}
 }

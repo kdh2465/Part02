@@ -1,5 +1,7 @@
 package pack04_modifier_1.sec02_staticmodifier.EX07_StaticInitialBlock;
 
+/*정적 초기화 블록*/
+
 class A {
 
 	int a;

@@ -1,45 +1,26 @@
 package pack02_internalcomponents.sec03_constructor.EX10_ConstructorOverloading;
 
+/*다양한 생성자를 사용한 다양한 객체 생성 방법*/
+
 class A {
-	int m;
-	void work() {
-		System.out.println(m);
+	A() {
+		System.out.println("첫번째 생성자");
 	}
-	//기본생성자 자동 추가 A(){}
-}
-
-class B{	
-	int m;
-	void work() {
-		System.out.println(m);
+	A(int a) {
+		System.out.println("두번째 생성자");
 	}
-	B(){ //기본생성자
-		
-	}
-}
-
-class C{
-	int m;
-	void work() {
-		System.out.println(m);
-	}
-	C(int a){ //기본생성자
-		m=a;
+	A(int a, int b) {
+		System.out.println("세번째 생성자");
 	}
 }
 
 public class EX10_ConstructorOverloading {
 	public static void main(String[] args) {
-		
-		//#1. 기본생성자를 이용한 객체 생성
-		A a = new A();
-		B b = new B();
-		//C c = new C(); //오류 (기본생성자 없음)
-		C c = new C(3);
-		
-		//#2. 메서드 호출
-		a.work();	//0
-		b.work();	//0
-		c.work();	//3
+	
+		//#1. 세 가지 생성자를 이용한 세가지 객체 생성 방법
+		A a1 = new A(); 	//첫번째 생성자
+		A a2 = new A(3); 	//두번째 생성자
+		A a3 = new A(3,5); 	//두번째 생성자
+
 	}
 }

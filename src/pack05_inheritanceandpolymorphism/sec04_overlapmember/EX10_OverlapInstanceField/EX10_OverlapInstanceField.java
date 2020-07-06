@@ -1,5 +1,7 @@
 package pack05_inheritanceandpolymorphism.sec04_overlapmember.EX10_OverlapInstanceField;
 
+/*인스턴스 필드의 중복*/
+
 class A{
 	int m = 3;	
 }

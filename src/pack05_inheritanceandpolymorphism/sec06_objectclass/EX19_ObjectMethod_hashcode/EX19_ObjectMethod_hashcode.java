@@ -1,6 +1,7 @@
 package pack05_inheritanceandpolymorphism.sec06_objectclass.EX19_ObjectMethod_hashcode;
-
 import java.util.HashMap;
+
+/*Object 클래스의 hashCode() 메서드*/
 
 class A { //equals() 메서드 overriding
 	String name;

@@ -1,5 +1,7 @@
 package pack02_internalcomponents.sec01_field.EX02_initialValueOfFieldAndLocalVariable;
 
+/*필드의 강제초기화 및 지역변수와의 비교*/
+
 //#1. 클래스 생성
 class A {
 	boolean m1;	
@@ -19,8 +21,7 @@ class A {
 	void printLocalVariable() {
 		int k;
 		//System.out.println(k); //오류
-	}
-	
+	}	
 }
 
 public class EX02_initialValueOfFieldAndLocalVariable {
@@ -33,5 +34,4 @@ public class EX02_initialValueOfFieldAndLocalVariable {
 		//#3. 필드값 출력
 		a.printFieldValues();
 	}
-
 }

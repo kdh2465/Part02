@@ -1,5 +1,6 @@
 package pack04_modifier_1.sec02_staticmodifier.EX04_StaticField_1;
 
+/*인스턴스 필드와 정적필드의 활용 방법*/
 
 public class EX04_StaticField_1 {
 	public static void main(String[] args) {

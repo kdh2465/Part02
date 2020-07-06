@@ -1,5 +1,7 @@
 package pack05_inheritanceandpolymorphism.sec01_inheritancepolymorphism.EX02_Polymorphism;
 
+/*상속을 통한 객체의 다형적 표현*/
+
 class A{ }
 class B extends A{ }
 class C extends B{ }

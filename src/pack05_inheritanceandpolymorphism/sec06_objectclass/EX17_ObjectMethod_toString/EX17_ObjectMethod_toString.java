@@ -1,5 +1,7 @@
 package pack05_inheritanceandpolymorphism.sec06_objectclass.EX17_ObjectMethod_toString;
  
+/*Object 클래스의 toString() 메서드*/
+
 class A {
 	int a=3;
 	int b=4;
@@ -18,7 +20,7 @@ public class EX17_ObjectMethod_toString {
 	public static void main(String[] args) {
 		
 		A aa = new A();
-		System.out.printf("%x\n",aa.hashCode()); //70dea4e
+		System.out.printf("%x\n",aa.hashCode()); //해쉬코드
 		System.out.println(aa); //패키지.클래스명@해쉬코드
 		
 		B bb = new B();		

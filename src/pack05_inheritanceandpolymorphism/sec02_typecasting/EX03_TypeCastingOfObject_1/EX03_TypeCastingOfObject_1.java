@@ -1,5 +1,7 @@
 package pack05_inheritanceandpolymorphism.sec02_typecasting.EX03_TypeCastingOfObject_1;
 
+/*클래스의 업캐스팅 및 다운캐스팅*/
+
 class A{ }
 class B extends A{ }
 class C extends B{ }

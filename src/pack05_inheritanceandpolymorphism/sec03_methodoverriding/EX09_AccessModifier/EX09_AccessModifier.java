@@ -1,5 +1,7 @@
 package pack05_inheritanceandpolymorphism.sec03_methodoverriding.EX09_AccessModifier;
 
+/*메서드 오버라이딩과 접근지정자*/
+
 class A{
 	protected void abc() {};	
 }

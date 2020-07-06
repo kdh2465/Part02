@@ -1,5 +1,7 @@
 package pack05_inheritanceandpolymorphism.sec04_overlapmember.EX11_OverlapStaticField;
 
+/*정적 필드의 중복*/
+
 class A{
 	static int m = 3;	
 }

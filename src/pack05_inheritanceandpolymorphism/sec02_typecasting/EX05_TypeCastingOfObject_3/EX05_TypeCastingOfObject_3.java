@@ -1,13 +1,14 @@
 package pack05_inheritanceandpolymorphism.sec02_typecasting.EX05_TypeCastingOfObject_3;
 
+/*캐스팅의 가능여부를 확인할 수 있는 instanceof*/
+
 class A{}
 class B extends A{}
 
 public class EX05_TypeCastingOfObject_3 {
 	public static void main(String[] args) {
 		
-		//#1. instanceof
-		
+		//#1. instanceof		
 		A aa = new A();
 		A ab = new B();
 		
@@ -33,7 +34,6 @@ public class EX05_TypeCastingOfObject_3 {
 		
 		if("안녕" instanceof String) {
 			System.out.println("\"안녕\"은 String 입니다.");
-		}
-				
+		}				
 	}
 }

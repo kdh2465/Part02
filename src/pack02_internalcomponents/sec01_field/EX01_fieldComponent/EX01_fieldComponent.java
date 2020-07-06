@@ -1,5 +1,7 @@
 package pack02_internalcomponents.sec01_field.EX01_fieldComponent;
 
+/*클래스 외부에서 참조변수를 사용한 필드와 메서드 호출*/
+
 //#1. 클래스 생성
 class A {
 	int m=3; // 필드
@@ -30,5 +32,5 @@ public class EX01_fieldComponent {
 		a.work1(); //호출시 지역변수 k 생성 / 메서드 종료 후 삭제
 		a.work2(3);//호출시 지역변수 i 생성 / 메서드 종료 후 삭제
 	}
-
+	
 }

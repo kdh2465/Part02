@@ -1,5 +1,7 @@
 package pack05_inheritanceandpolymorphism.sec05_superkeywordandsupermethod.EX14_superkeyword_2;
 
+/*멤버앞에 super 키워드를 사용한 경우의 메서드 호출*/
+
 class A {
 	void abc() {
 		System.out.println("A 클래스 abc()");
@@ -11,7 +13,7 @@ class B extends A {
 		System.out.println("B 클래스 abc()");
 	}
 	void bcd() {
-		this.abc(); // this.abc();
+		super.abc(); //부모 객체의 abc()
 	}
 }
 

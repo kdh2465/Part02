@@ -1,5 +1,7 @@
 package pack02_internalcomponents.sec05_thismethod.EX14_thismethod_2;
 
+/*this()ÀÇ È°¿ë*/
+
 class A{
 	int m1, m2, m3, m4;
 	A(){

@@ -1,5 +1,7 @@
 package pack05_inheritanceandpolymorphism.sec03_methodoverriding.EX07_MethodOverriding_2;
 
+/*메서드 오버라이딩의 대표적 예시*/
+
 class Animal {
 	void cry() {
 		

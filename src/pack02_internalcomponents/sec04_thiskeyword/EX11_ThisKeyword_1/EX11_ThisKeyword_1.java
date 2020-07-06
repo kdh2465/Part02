@@ -1,5 +1,7 @@
 package pack02_internalcomponents.sec04_thiskeyword.EX11_ThisKeyword_1;
 
+/*묵시적 this 키워드 자동 추가 */
+
 class A {
 	int m;
 	int n;

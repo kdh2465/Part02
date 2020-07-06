@@ -1,5 +1,7 @@
 package pack04_modifier_1.sec02_staticmodifier.EX06_StaticMethod;
 
+/*인스턴스 메서드와 정적 메서드*/
+
 class A{
 	void abc(){ //인스턴스 메서드
 		System.out.println("인스턴스 메서드");

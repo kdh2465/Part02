@@ -1,5 +1,7 @@
 package pack05_inheritanceandpolymorphism.sec06_objectclass.EX18_ObjectMethod_equals;
 
+/*Object 클래스의 equals(.) 메서드*/
+
 class A {
 	String name;
 	A(String name) {

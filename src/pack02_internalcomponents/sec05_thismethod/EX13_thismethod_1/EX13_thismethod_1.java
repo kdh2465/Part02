@@ -1,5 +1,7 @@
 package pack02_internalcomponents.sec05_thismethod.EX13_thismethod_1;
 
+/*this() 메서드의 문법적 특징과 의미*/
+
 class A{
 
 	A(){

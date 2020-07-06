@@ -1,5 +1,6 @@
 package pack05_inheritanceandpolymorphism.sec04_overlapmember.EX12_OverlapStaticMethod;
 
+/*정적 메서드의 중복*/
 
 class A{
 	static void print() {
