@@ -1,4 +1,4 @@
-package pack02_internalcomponents.sec05_thismethod.EX13_thismethod_1;
+package pack02_internalcomponents.sec05_thismethod.EX01_thismethod_1;
 
 /*this() 메서드의 문법적 특징과 의미*/
 
@@ -13,7 +13,7 @@ class A{
 	}
 }
 
-public class EX13_thismethod_1 {
+public class EX01_thismethod_1 {
 	public static void main(String[] args) {
 		
 		//# 두가지 객체 생성 방법

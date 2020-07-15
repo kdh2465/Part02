@@ -1,4 +1,4 @@
-package pack04_modifier_1.sec02_staticmodifier.EX05_StaticField_2;
+package pack04_modifier_1.sec02_staticmodifier.EX02_StaticField_2;
 
 public class A {
 	int m=3;		//인스턴스 필드

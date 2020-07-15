@@ -1,4 +1,4 @@
-package pack05_inheritanceandpolymorphism.sec05_superkeywordandsupermethod.EX16_supermethod_2;
+package pack05_inheritanceandpolymorphism.sec05_superkeywordandsupermethod.EX04_supermethod_2;
 
 /*this()메서드와 super() 메서드의 혼용*/
 
@@ -22,7 +22,7 @@ class B extends A {
 	}
 }
 
-public class EX16_supermethod_2 {
+public class EX04_supermethod_2 {
 	public static void main(String[] args) {
 		
 		//#1. A 객체 생성

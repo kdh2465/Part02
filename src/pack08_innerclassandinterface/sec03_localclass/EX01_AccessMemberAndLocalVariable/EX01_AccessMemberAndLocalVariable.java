@@ -1,4 +1,4 @@
-package pack08_innerclassandinterface.sec03_localclass.EX04_AccessMemberAndLocalVariable;
+package pack08_innerclassandinterface.sec03_localclass.EX01_AccessMemberAndLocalVariable;
 
 /*지역이너클래스 내부에서 외부 멤버 및 메서드 지역변수 활용*/
 
@@ -19,7 +19,7 @@ class A{
 		bb.bcd();
 	}
 }
-public class EX04_AccessMemberAndLocalVariable {
+public class EX01_AccessMemberAndLocalVariable {
 	public static void main(String[] args) {
 		A a = new A();
 		a.abc();

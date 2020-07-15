@@ -1,4 +1,4 @@
-package pack05_inheritanceandpolymorphism.sec02_typecasting.EX03_TypeCastingOfObject_1;
+package pack05_inheritanceandpolymorphism.sec02_typecasting.EX01_TypeCastingOfObject_1;
 
 /*클래스의 업캐스팅 및 다운캐스팅*/
 
@@ -7,7 +7,7 @@ class B extends A{ }
 class C extends B{ }
 class D extends B{ }
 
-public class EX03_TypeCastingOfObject_1 {
+public class EX01_TypeCastingOfObject_1 {
 	public static void main(String[] args) {
 
 		//#1. 업캐스팅 (생략시 자동추가)

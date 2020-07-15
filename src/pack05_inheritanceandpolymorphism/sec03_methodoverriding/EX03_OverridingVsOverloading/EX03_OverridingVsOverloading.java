@@ -1,4 +1,4 @@
-package pack05_inheritanceandpolymorphism.sec03_methodoverriding.EX08_OverridingVsOverloading;
+package pack05_inheritanceandpolymorphism.sec03_methodoverriding.EX03_OverridingVsOverloading;
 
 /*메서드 오버라이딩 vs. 메서드 오버로딩*/
 
@@ -20,7 +20,7 @@ class B extends A {
 	}
 }
 
-public class EX08_OverridingVsOverloading {
+public class EX03_OverridingVsOverloading {
 	public static void main(String[] args) {
 		
 		//#1. A 타입 선언 A 객체 생성

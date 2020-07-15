@@ -1,4 +1,4 @@
-package pack07_abstractclassandinterface.sec02_interface.EX03_InterfaceCharacteristic;
+package pack07_abstractclassandinterface.sec02_interface.EX01_InterfaceCharacteristic;
 
 /*인터페이스내 필드 및 메서드의 제어자*/
 
@@ -12,7 +12,7 @@ interface B {
 	void bcd();	//public abstract 자동 추가
 }
 
-public class EX03_InterfaceCharacteristic {
+public class EX01_InterfaceCharacteristic {
 	public static void main(String[] args) {
 		
 		//#1. 필드의 static 특징 확인 (클래스/인터페이스 이름으로 바로 접근 가능)

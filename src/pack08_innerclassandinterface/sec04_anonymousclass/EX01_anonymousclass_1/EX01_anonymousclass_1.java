@@ -1,4 +1,4 @@
-package pack08_innerclassandinterface.sec04_anonymousclass.EX06_anonymousclass_1;
+package pack08_innerclassandinterface.sec04_anonymousclass.EX01_anonymousclass_1;
 
 /*인터페이스를 상속한 이너클래스를 생성하여 인터페이스 객체 생성*/
 
@@ -22,7 +22,7 @@ class A {
 }
 
 
-public class EX06_anonymousclass_1 {
+public class EX01_anonymousclass_1 {
 	public static void main(String[] args) {
 		//객체 생성
 		A a = new A();

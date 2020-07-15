@@ -1,8 +1,8 @@
-package pack04_modifier_1.sec02_staticmodifier.EX05_StaticField_2;
+package pack04_modifier_1.sec02_staticmodifier.EX02_StaticField_2;
 
 /*정적필드의 공유기능*/
 
-public class EX05_StaticField_2 {
+public class EX02_StaticField_2 {
 	public static void main(String[] args) {
 	
 		A a1 = new A();

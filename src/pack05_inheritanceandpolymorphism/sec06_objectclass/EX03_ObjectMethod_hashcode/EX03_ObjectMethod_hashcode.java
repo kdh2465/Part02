@@ -1,4 +1,4 @@
-package pack05_inheritanceandpolymorphism.sec06_objectclass.EX19_ObjectMethod_hashcode;
+package pack05_inheritanceandpolymorphism.sec06_objectclass.EX03_ObjectMethod_hashcode;
 import java.util.HashMap;
 
 /*Object 클래스의 hashCode() 메서드*/
@@ -45,7 +45,7 @@ class B { //equals() 메서드 overriding
 	}
 }
 
-public class EX19_ObjectMethod_hashcode {
+public class EX03_ObjectMethod_hashcode {
 	public static void main(String[] args) {
 		
 		HashMap<Integer, String> hm1 = new HashMap<>();

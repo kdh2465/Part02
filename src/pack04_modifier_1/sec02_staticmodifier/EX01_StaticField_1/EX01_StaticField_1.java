@@ -1,8 +1,8 @@
-package pack04_modifier_1.sec02_staticmodifier.EX04_StaticField_1;
+package pack04_modifier_1.sec02_staticmodifier.EX01_StaticField_1;
 
 /*인스턴스 필드와 정적필드의 활용 방법*/
 
-public class EX04_StaticField_1 {
+public class EX01_StaticField_1 {
 	public static void main(String[] args) {
 	
 		//#1. 인스턴스 필드 활용 방법 (1.객체 생성  2.필드사용)

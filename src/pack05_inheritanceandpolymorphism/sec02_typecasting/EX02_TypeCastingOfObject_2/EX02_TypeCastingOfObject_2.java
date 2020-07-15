@@ -1,4 +1,4 @@
-package pack05_inheritanceandpolymorphism.sec02_typecasting.EX04_TypeCastingOfObject_2;
+package pack05_inheritanceandpolymorphism.sec02_typecasting.EX02_TypeCastingOfObject_2;
 
 /*선언타입에 따른 사용가능한 멤버*/
 
@@ -16,7 +16,7 @@ class B extends A{
 	}
 }
 
-public class EX04_TypeCastingOfObject_2 {
+public class EX02_TypeCastingOfObject_2 {
 	public static void main(String[] args) {
 		
 		//#1. A 타입 + A 객체 : 필드 1개 + 메서드 1개

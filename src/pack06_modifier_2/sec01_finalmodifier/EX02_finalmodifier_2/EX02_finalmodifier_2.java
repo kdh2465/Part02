@@ -18,7 +18,6 @@ final class C{}
 
 public class EX02_finalmodifier_2 {
 	public static void main(String[] args) {
-		
-		
+				
 	}
 }

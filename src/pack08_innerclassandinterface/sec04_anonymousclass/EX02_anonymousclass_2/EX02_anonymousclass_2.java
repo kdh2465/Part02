@@ -1,4 +1,4 @@
-package pack08_innerclassandinterface.sec04_anonymousclass.EX07_anonymousclass_2;
+package pack08_innerclassandinterface.sec04_anonymousclass.EX02_anonymousclass_2;
 
 /*익명이너클래스를 활용하여 인터페이스 객체 생성*/
 
@@ -19,7 +19,7 @@ class A {
 	}
 }
 
-public class EX07_anonymousclass_2 {
+public class EX02_anonymousclass_2 {
 	public static void main(String[] args) {
 		//객체 생성
 		A a = new A();

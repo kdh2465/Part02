@@ -1,4 +1,4 @@
-package pack02_internalcomponents.sec02_method.EX03_externalCallMethods;
+package pack02_internalcomponents.sec02_method.EX01_externalCallMethods;
 
 /*클래스 외부에서의 메서드 호출*/
 
@@ -28,7 +28,7 @@ class A {
 	}	
 }
 
-public class EX03_externalCallMethods {
+public class EX01_externalCallMethods {
 	public static void main(String[] args) {
 	
 		//메서드의 외부 호출(다른 클래스의 메서드 호출) 1. 객체 생성  2.참조변수로부터 메서드 호출

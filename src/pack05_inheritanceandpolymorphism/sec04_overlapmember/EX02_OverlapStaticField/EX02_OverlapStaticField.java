@@ -1,4 +1,4 @@
-package pack05_inheritanceandpolymorphism.sec04_overlapmember.EX11_OverlapStaticField;
+package pack05_inheritanceandpolymorphism.sec04_overlapmember.EX02_OverlapStaticField;
 
 /*정적 필드의 중복*/
 
@@ -9,7 +9,7 @@ class B extends A{
 	static int m = 4;
 }
 
-public class EX11_OverlapStaticField {
+public class EX02_OverlapStaticField {
 	public static void main(String[] args) {
 		
 		//#1. 클래스 이름으로 바로 접근

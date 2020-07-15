@@ -1,4 +1,4 @@
-package pack08_innerclassandinterface.sec02_staticinnerclass.EX03_CreateObjectAndAccessMember;
+package pack08_innerclassandinterface.sec02_staticinnerclass.EX01_CreateObjectAndAccessMember;
 
 /*정적이너클래스에서의 외부멤버 사용 및 객체 생성*/
 
@@ -23,7 +23,7 @@ class A{
 		}
 	}
 }
-public class EX03_CreateObjectAndAccessMember {
+public class EX01_CreateObjectAndAccessMember {
 	public static void main(String[] args) {
 		
 		//#3. static inner class 객체생성

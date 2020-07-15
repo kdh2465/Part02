@@ -1,4 +1,4 @@
-package pack07_abstractclassandinterface.sec02_interface.EX06_CreateObjectOfInterface_1;
+package pack07_abstractclassandinterface.sec02_interface.EX04_CreateObjectOfInterface_1;
 
 /*자식클래스의 직접 정의를 통한 인터페이스타입의 객체 생성 (방법#1)*/
 
@@ -15,7 +15,7 @@ class B implements A {
 	}
 }
 
-public class EX06_CreateObjectOfInterface_1 {
+public class EX04_CreateObjectOfInterface_1 {
 	public static void main(String[] args) {
 		//#1-2. 상속한 일반클래스를 이용하여 객체 생성
 		B b1 = new B();

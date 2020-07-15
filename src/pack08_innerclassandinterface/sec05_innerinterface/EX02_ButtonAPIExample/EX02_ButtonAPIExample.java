@@ -1,4 +1,4 @@
-package pack08_innerclassandinterface.sec05_innerinterface.EX11_ButtonAPIExample;
+package pack08_innerclassandinterface.sec05_innerinterface.EX02_ButtonAPIExample;
 
 /*일반적인 UI API의 구조 예시 (버튼)*/
 
@@ -15,7 +15,7 @@ class Button{
 	}
 }
 
-public class EX11_ButtonAPIExample {
+public class EX02_ButtonAPIExample {
 	public static void main(String[] args) {
 		
 		//#1. 개발자 1. 클릭했을때 음악재생

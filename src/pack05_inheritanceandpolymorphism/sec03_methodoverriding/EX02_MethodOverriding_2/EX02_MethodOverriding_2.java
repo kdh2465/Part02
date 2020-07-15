@@ -1,4 +1,4 @@
-package pack05_inheritanceandpolymorphism.sec03_methodoverriding.EX07_MethodOverriding_2;
+package pack05_inheritanceandpolymorphism.sec03_methodoverriding.EX02_MethodOverriding_2;
 
 /*메서드 오버라이딩의 대표적 예시*/
 
@@ -24,7 +24,7 @@ class Cat extends Animal {
 	}
 }
 
-public class EX07_MethodOverriding_2 {
+public class EX02_MethodOverriding_2 {
 	public static void main(String[] args) {
 		
 		//#1. 각각의 타입으로 선언 + 각각의 타입으로 객체 생성

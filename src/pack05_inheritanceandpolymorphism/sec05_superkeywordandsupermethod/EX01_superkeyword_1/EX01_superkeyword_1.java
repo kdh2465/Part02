@@ -1,4 +1,4 @@
-package pack05_inheritanceandpolymorphism.sec05_superkeywordandsupermethod.EX13_superkeyword_1;
+package pack05_inheritanceandpolymorphism.sec05_superkeywordandsupermethod.EX01_superkeyword_1;
 
 /*멤버앞에 참조변수를 생략(this.)하는 경우의 메서드 호출*/
 
@@ -17,7 +17,7 @@ class B extends A {
 	}
 }
 
-public class EX13_superkeyword_1 {
+public class EX01_superkeyword_1 {
 	public static void main(String[] args) {
 		
 		//#1. 객체 생성

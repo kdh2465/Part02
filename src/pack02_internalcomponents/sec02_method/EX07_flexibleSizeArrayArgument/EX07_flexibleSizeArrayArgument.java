@@ -1,8 +1,8 @@
-package pack02_internalcomponents.sec02_method.EX09_flexibleSizeArrayArgument;
+package pack02_internalcomponents.sec02_method.EX07_flexibleSizeArrayArgument;
 
 /*메서드의 가변길이 배열 매개변수*/
 
-public class EX09_flexibleSizeArrayArgument {
+public class EX07_flexibleSizeArrayArgument {
 	public static void main(String[] args) {
 		//#1. 길이가 정해져 있지 않은 int배열 매개변수
 		method1(1,2); //매개변수길이:2 --> 1,2

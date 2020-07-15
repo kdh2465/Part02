@@ -1,4 +1,4 @@
-package pack05_inheritanceandpolymorphism.sec04_overlapmember.EX12_OverlapStaticMethod;
+package pack05_inheritanceandpolymorphism.sec04_overlapmember.EX03_OverlapStaticMethod;
 
 /*정적 메서드의 중복*/
 
@@ -13,7 +13,7 @@ class B extends A{
 	}
 }
 
-public class EX12_OverlapStaticMethod {
+public class EX03_OverlapStaticMethod {
 	public static void main(String[] args) {
 		
 		//#1. 클래스 이름으로 바로 접근

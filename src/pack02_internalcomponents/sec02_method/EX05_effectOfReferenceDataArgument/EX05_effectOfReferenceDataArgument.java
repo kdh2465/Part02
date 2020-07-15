@@ -1,10 +1,10 @@
-package pack02_internalcomponents.sec02_method.EX07_effectOfReferenceDataArgument;
+package pack02_internalcomponents.sec02_method.EX05_effectOfReferenceDataArgument;
 
 import java.util.Arrays;
 
 /*참조자료형 매개개변수 값의 변화*/
 
-public class EX07_effectOfReferenceDataArgument {
+public class EX05_effectOfReferenceDataArgument {
 	public static void main(String[] args) {
 		
 		int[] array = new int[]{1,2,3};

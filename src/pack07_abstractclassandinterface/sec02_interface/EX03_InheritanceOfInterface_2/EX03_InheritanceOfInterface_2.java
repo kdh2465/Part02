@@ -1,4 +1,4 @@
-package pack07_abstractclassandinterface.sec02_interface.EX05_InheritanceOfInterface_2;
+package pack07_abstractclassandinterface.sec02_interface.EX03_InheritanceOfInterface_2;
 
 /*인터페이스 상속 자식클래스의 접근지정자*/
 
@@ -25,6 +25,8 @@ class D implements B {
 }
 */
 
-public class EX05_InheritanceOfInterface_2 {
-
+public class EX03_InheritanceOfInterface_2 {
+	public static void main(String[] args) {
+		
+	}
 }

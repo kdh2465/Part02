@@ -1,4 +1,4 @@
-package pack03_externalcomponents.sec02_externalclass.EX04_ExternalClass_2;
+package pack03_externalcomponents.sec02_externalclass.EX02_ExternalClass_2;
 
 /*외부클래스를 별도의 파일로 분리*/
 

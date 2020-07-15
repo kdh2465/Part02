@@ -1,4 +1,4 @@
-package pack08_innerclassandinterface.sec04_anonymousclass.EX09_anonymousclass_4;
+package pack08_innerclassandinterface.sec04_anonymousclass.EX04_anonymousclass_4;
 
 /*클래스 미정의 및 참조변수명을 사용/미사용의 경우 매개변수 객체 전달*/
 
@@ -18,7 +18,7 @@ class C {
 	}
 }
 
-public class EX09_anonymousclass_4 {
+public class EX04_anonymousclass_4 {
 	public static void main(String[] args) {
 		
 		C c = new C();
@@ -38,6 +38,5 @@ public class EX09_anonymousclass_4 {
 			};
 		});
 		
-	}
-	
+	}	
 }

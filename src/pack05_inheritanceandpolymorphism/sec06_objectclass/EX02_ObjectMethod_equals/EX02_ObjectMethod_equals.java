@@ -1,4 +1,4 @@
-package pack05_inheritanceandpolymorphism.sec06_objectclass.EX18_ObjectMethod_equals;
+package pack05_inheritanceandpolymorphism.sec06_objectclass.EX02_ObjectMethod_equals;
 
 /*Object 클래스의 equals(.) 메서드*/
 
@@ -24,7 +24,7 @@ class B { //equals() 메서드 overriding
 	}
 }
 
-public class EX18_ObjectMethod_equals {
+public class EX02_ObjectMethod_equals {
 	public static void main(String[] args) {
 		
 		A aa1 = new A("안녕");

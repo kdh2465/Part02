@@ -1,4 +1,4 @@
-package pack04_modifier_1.sec02_staticmodifier.EX07_StaticInitialBlock;
+package pack04_modifier_1.sec02_staticmodifier.EX04_StaticInitialBlock;
 
 /*정적 초기화 블록*/
 
@@ -18,7 +18,7 @@ class A {
 
 }
 
-public class EX07_StaticInitialBlock {
+public class EX04_StaticInitialBlock {
 	public static void main(String[] args) {
 		
 		System.out.println(A.b);

@@ -1,4 +1,4 @@
-package pack02_internalcomponents.sec03_constructor.EX09_DefaultConstructor;
+package pack02_internalcomponents.sec03_constructor.EX01_DefaultConstructor;
 
 /*기본 생성자의 자동 추가*/
 
@@ -27,7 +27,7 @@ class C{
 	}
 }
 
-public class EX09_DefaultConstructor {
+public class EX01_DefaultConstructor {
 	public static void main(String[] args) {
 		
 		//#1. 기본생성자를 이용한 객체 생성

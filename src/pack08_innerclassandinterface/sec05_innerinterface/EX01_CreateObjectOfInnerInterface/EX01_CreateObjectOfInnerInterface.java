@@ -1,4 +1,4 @@
-package pack08_innerclassandinterface.sec05_innerinterface.EX10_CreateObjectOfInnerInterface;
+package pack08_innerclassandinterface.sec05_innerinterface.EX01_CreateObjectOfInnerInterface;
 
 /*이너인터페이스의 두 가지 객체 생성 방법*/
 
@@ -14,7 +14,7 @@ class C implements A.B{
 	};
 }
 
-public class EX10_CreateObjectOfInnerInterface {
+public class EX01_CreateObjectOfInnerInterface {
 	public static void main(String[] args) {
 		//객체 생성 방법 1-2. 구현 클래스로 객체 생성
 		C c = new C();

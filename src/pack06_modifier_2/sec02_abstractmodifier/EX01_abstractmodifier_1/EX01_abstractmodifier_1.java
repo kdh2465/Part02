@@ -1,4 +1,4 @@
-package pack06_modifier_2.sec02_abstractmodifier.EX03_abstractmodifier_1;
+package pack06_modifier_2.sec02_abstractmodifier.EX01_abstractmodifier_1;
 
 /*일반클래스를 상속하여 오버라이딩 수행*/
 
@@ -18,7 +18,7 @@ class Dog extends Animal{
 	}	
 }
 
-public class EX03_abstractmodifier_1 {
+public class EX01_abstractmodifier_1 {
 	
 	public static void main(String[] args) {
 		

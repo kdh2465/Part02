@@ -1,4 +1,4 @@
-package pack05_inheritanceandpolymorphism.sec03_methodoverriding.EX06_MethodOverriding_1;
+package pack05_inheritanceandpolymorphism.sec03_methodoverriding.EX01_MethodOverriding_1;
 
 /*메서드 오버라이딩의 기본 동작*/
 
@@ -14,7 +14,7 @@ class B extends A {
 	}
 }
 
-public class EX06_MethodOverriding_1 {
+public class EX01_MethodOverriding_1 {
 	public static void main(String[] args) {
 		
 		//#1. A 타입 선언 A 객체 생성

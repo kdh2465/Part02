@@ -1,4 +1,4 @@
-package pack02_internalcomponents.sec05_thismethod.EX14_thismethod_2;
+package pack02_internalcomponents.sec05_thismethod.EX02_thismethod_2;
 
 /*this()의 활용*/
 
@@ -47,7 +47,7 @@ class B{
 	}
 }
 
-public class EX14_thismethod_2 {
+public class EX02_thismethod_2 {
 	public static void main(String[] args) {
 		
 		//# 세 가지 객체 생성 방법 (this() 미사용)

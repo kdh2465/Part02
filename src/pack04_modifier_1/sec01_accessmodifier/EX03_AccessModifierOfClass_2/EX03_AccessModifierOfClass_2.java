@@ -1,7 +1,6 @@
 package pack04_modifier_1.sec01_accessmodifier.EX03_AccessModifierOfClass_2;
 
-import pack04_modifier_1.sec01_accessmodifier.EX02_AccessModifierOfClass_1.A;
-import pack04_modifier_1.sec01_accessmodifier.EX02_AccessModifierOfClass_1.C;
+import pack04_modifier_1.sec01_accessmodifier.EX03_AccessModifierOfClass_2.pack.A;
 
 /*다른 패키지에서의 클래스 접근지정자 vs. 생성자 접근지정자*/
 

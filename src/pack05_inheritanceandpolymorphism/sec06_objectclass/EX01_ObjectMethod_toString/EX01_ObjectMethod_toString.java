@@ -1,4 +1,4 @@
-package pack05_inheritanceandpolymorphism.sec06_objectclass.EX17_ObjectMethod_toString;
+package pack05_inheritanceandpolymorphism.sec06_objectclass.EX01_ObjectMethod_toString;
  
 /*Object 클래스의 toString() 메서드*/
 
@@ -16,7 +16,7 @@ class B { //toString() overriding
 	}
 }
  
-public class EX17_ObjectMethod_toString {
+public class EX01_ObjectMethod_toString {
 	public static void main(String[] args) {
 		
 		A aa = new A();

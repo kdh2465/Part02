@@ -1,11 +1,11 @@
-package pack05_inheritanceandpolymorphism.sec02_typecasting.EX05_TypeCastingOfObject_3;
+package pack05_inheritanceandpolymorphism.sec02_typecasting.EX03_TypeCastingOfObject_3;
 
 /*캐스팅의 가능여부를 확인할 수 있는 instanceof*/
 
 class A{}
 class B extends A{}
 
-public class EX05_TypeCastingOfObject_3 {
+public class EX03_TypeCastingOfObject_3 {
 	public static void main(String[] args) {
 		
 		//#1. instanceof		

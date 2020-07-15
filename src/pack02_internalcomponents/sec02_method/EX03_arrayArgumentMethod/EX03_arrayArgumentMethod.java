@@ -1,10 +1,10 @@
-package pack02_internalcomponents.sec02_method.EX05_arrayArgumentMethod;
+package pack02_internalcomponents.sec02_method.EX03_arrayArgumentMethod;
 
 import java.util.Arrays;
 
 /*배열 매개변수를 가지는 메서드 호출*/
 
-public class EX05_arrayArgumentMethod {
+public class EX03_arrayArgumentMethod {
 	public static void main(String[] args) {
 	
 		//배열 매개변수를 가지는 메서드 호출		

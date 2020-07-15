@@ -1,10 +1,10 @@
-package pack04_modifier_1.sec02_staticmodifier.EX06_StaticMethod;
+package pack04_modifier_1.sec02_staticmodifier.EX03_StaticMethod;
 
 /*인스턴스 메서드와 정적 메서드*/
 
 class A{
 	void abc(){ //인스턴스 메서드
-		System.out.println("인스턴스 메서드");
+		System.out.println("instance 메서드");
 	}
 
 	static void bcd(){ //static 메서드
@@ -12,12 +12,12 @@ class A{
 	}
 }
 
-public class EX06_StaticMethod {
+public class EX03_StaticMethod {
 	public static void main(String[] args) {
 	
 		//#1. 인스턴스 메서드 활용 방법 (1.객체 생성  2.메서드 호출)
 		A a = new A();
-		a.abc(); //인스턴스 메서드
+		a.abc(); //instance 메서드
 		
 		//#2. static 메서드 활용 방법 
 		//@방법 #1 (1.클래스이름으로 바로 접근)

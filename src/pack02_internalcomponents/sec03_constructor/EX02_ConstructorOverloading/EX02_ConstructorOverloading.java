@@ -1,4 +1,4 @@
-package pack02_internalcomponents.sec03_constructor.EX10_ConstructorOverloading;
+package pack02_internalcomponents.sec03_constructor.EX02_ConstructorOverloading;
 
 /*다양한 생성자를 사용한 다양한 객체 생성 방법*/
 
@@ -14,7 +14,7 @@ class A {
 	}
 }
 
-public class EX10_ConstructorOverloading {
+public class EX02_ConstructorOverloading {
 	public static void main(String[] args) {
 	
 		//#1. 세 가지 생성자를 이용한 세가지 객체 생성 방법

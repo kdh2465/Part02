@@ -1,4 +1,4 @@
-package pack05_inheritanceandpolymorphism.sec04_overlapmember.EX10_OverlapInstanceField;
+package pack05_inheritanceandpolymorphism.sec04_overlapmember.EX01_OverlapInstanceField;
 
 /*인스턴스 필드의 중복*/
 
@@ -9,7 +9,7 @@ class B extends A{
 	int m = 4;
 }
 
-public class EX10_OverlapInstanceField {
+public class EX01_OverlapInstanceField {
 	public static void main(String[] args) {
 		
 		//#1. 객체 생성

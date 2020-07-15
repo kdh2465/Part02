@@ -1,4 +1,4 @@
-package pack02_internalcomponents.sec04_thiskeyword.EX11_ThisKeyword_1;
+package pack02_internalcomponents.sec04_thiskeyword.EX01_ThisKeyword_1;
 
 /*묵시적 this 키워드 자동 추가 */
 
@@ -16,7 +16,7 @@ class A {
 	}
 }
 
-public class EX11_ThisKeyword_1 {
+public class EX01_ThisKeyword_1 {
 	public static void main(String[] args) {
 		
 		//#1. 객체 생성

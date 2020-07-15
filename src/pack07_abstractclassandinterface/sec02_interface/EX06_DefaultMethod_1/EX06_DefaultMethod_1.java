@@ -1,4 +1,4 @@
-package pack07_abstractclassandinterface.sec02_interface.EX08_DefaultMethod_1;
+package pack07_abstractclassandinterface.sec02_interface.EX06_DefaultMethod_1;
 
 /*인터페이스 구현 및 디폴트메서드의 오버라이딩*/
 
@@ -26,7 +26,7 @@ class C implements A {
 	};
 }
 
-public class EX08_DefaultMethod_1 {
+public class EX06_DefaultMethod_1 {
 	public static void main(String[] args) {
 		//#1. B 객체 생성 및 메서드 호출
 		B b = new B();

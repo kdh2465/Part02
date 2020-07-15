@@ -1,4 +1,4 @@
-package pack02_internalcomponents.sec04_thiskeyword.EX12_ThisKeyword_2;
+package pack02_internalcomponents.sec04_thiskeyword.EX02_ThisKeyword_2;
 
 /*명시적 this 키워드 자동 추가 */
 
@@ -19,7 +19,7 @@ class B {
 	}	
 }
 
-public class EX12_ThisKeyword_2 {
+public class EX02_ThisKeyword_2 {
 	public static void main(String[] args) {
 		
 		//#1. 필드명과 지역변수 이름이 같은 경우 (this 미사용)
