@@ -10,6 +10,7 @@ class A {
 	void work1() {
 		int k=5; //지역변수
 		System.out.println(k);
+		work2(3); //호출시 지역변수 i 생성 / 메서드 종료 후 삭제
 	}
 	void work2(int i) { //지역변수
 		int j=4; //지역변수
@@ -29,8 +30,7 @@ public class EX01_fieldComponent {
 		System.out.println("필드 n = "+a.n); //4
 		
 		//#4. 메서드 호출
-		a.work1(); //호출시 지역변수 k 생성 / 메서드 종료 후 삭제
-		a.work2(3);//호출시 지역변수 i 생성 / 메서드 종료 후 삭제
+		a.work1(); //호출시 지역변수 k 생성 / 메서드 종료 후 삭제		
 	}
 	
 }
