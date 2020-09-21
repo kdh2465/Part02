@@ -1,6 +1,6 @@
-package pack02_internalcomponents.sec04_thiskeyword.EX01_ThisKeyword_1;
+ï»¿package pack02_internalcomponents.sec04_thiskeyword.EX01_ThisKeyword_1;
 
-/*¹¬½ÃÀû this Å°¿öµå ÀÚµ¿ Ãß°¡ */
+/*ë¬µì‹œì  this í‚¤ì›Œë“œ ìë™ ì¶”ê°€ */
 
 class A {
 	int m;
@@ -19,10 +19,10 @@ class A {
 public class EX01_ThisKeyword_1 {
 	public static void main(String[] args) {
 		
-		//#1. °´Ã¼ »ı¼º
+		//#1. ê°ì²´ ìƒì„±
 		A a = new A();
 		
-		//#2. ¸Ş¼­µåÈ£Ãâ ¹× ÇÊµå°ª Ãâ·Â
+		//#2. ë©”ì„œë“œí˜¸ì¶œ ë° í•„ë“œê°’ ì¶œë ¥
 		a.work(); 
 		System.out.println(a.m);	//2
 		System.out.println(a.n);	//3

@@ -1,17 +1,17 @@
-package pack07_abstractclassandinterface.sec02_interface.EX02_InheritanceOfInterface_1;
+ï»¿package pack07_abstractclassandinterface.sec02_interface.EX02_InheritanceOfInterface_1;
 
-/*ÀÎÅÍÆäÀÌ½º¿Í Å¬·¡½ºÀÇ »ó¼Ó Å°¿öµå */
+/*ì¸í„°í˜ì´ìŠ¤ì™€ í´ë˜ìŠ¤ì˜ ìƒì† í‚¤ì›Œë“œ */
 
 interface A {}
 interface B {}
 
-//#1. ´ÜÀÏ ÀÎÅÍÆäÀÌ½º »ó¼Ó(±¸Çö)
+//#1. ë‹¨ì¼ ì¸í„°í˜ì´ìŠ¤ ìƒì†(êµ¬í˜„)
 class C implements A {}
 
-//#2. ´ÙÁß ÀÎÅÍÆäÀÌ½º »ó¼Ó(±¸Çö)
+//#2. ë‹¤ì¤‘ ì¸í„°í˜ì´ìŠ¤ ìƒì†(êµ¬í˜„)
 class D implements A,B {}
 
-//#2. Å¬·¡½º 1°³, ÀÎÅÍÆäÀÌ½º 2°³ ´ÙÁß »ó¼Ó(±¸Çö)
+//#2. í´ë˜ìŠ¤ 1ê°œ, ì¸í„°í˜ì´ìŠ¤ 2ê°œ ë‹¤ì¤‘ ìƒì†(êµ¬í˜„)
 class E extends D implements A,B {}
 
 public class EX02_InheritanceOfInterface_1 {

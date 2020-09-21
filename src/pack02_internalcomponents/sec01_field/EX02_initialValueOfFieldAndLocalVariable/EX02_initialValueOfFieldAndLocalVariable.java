@@ -1,8 +1,8 @@
-package pack02_internalcomponents.sec01_field.EX02_initialValueOfFieldAndLocalVariable;
+ï»¿package pack02_internalcomponents.sec01_field.EX02_initialValueOfFieldAndLocalVariable;
 
-/*ÇÊµåÀÇ °­Á¦ÃÊ±âÈ­ ¹× Áö¿ªº¯¼ö¿ÍÀÇ ºñ±³*/
+/*í•„ë“œì˜ ê°•ì œì´ˆê¸°í™” ë° ì§€ì—­ë³€ìˆ˜ì™€ì˜ ë¹„êµ*/
 
-//#1. Å¬·¡½º »ı¼º
+//#1. í´ë˜ìŠ¤ ìƒì„±
 class A {
 	boolean m1;	
 	int m2;	
@@ -20,7 +20,7 @@ class A {
 	
 	void printLocalVariable() {
 		int k;
-		//System.out.println(k); //¿À·ù
+		//System.out.println(k); //ì˜¤ë¥˜
 	}	
 }
 
@@ -28,10 +28,10 @@ public class EX02_initialValueOfFieldAndLocalVariable {
 	
 	public static void main(String[] args) {
 		
-		//#2. Å¬·¡½º¸¦ È°¿ëÇÏ¿© °´Ã¼ »ı¼º
+		//#2. í´ë˜ìŠ¤ë¥¼ í™œìš©í•˜ì—¬ ê°ì²´ ìƒì„±
 		A a = new A();
 		
-		//#3. ÇÊµå°ª Ãâ·Â
+		//#3. í•„ë“œê°’ ì¶œë ¥
 		a.printFieldValues();
 	}
 }

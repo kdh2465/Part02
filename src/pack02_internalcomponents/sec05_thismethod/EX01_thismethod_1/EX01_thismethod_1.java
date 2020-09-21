@@ -1,24 +1,24 @@
-package pack02_internalcomponents.sec05_thismethod.EX01_thismethod_1;
+ï»¿package pack02_internalcomponents.sec05_thismethod.EX01_thismethod_1;
 
-/*this() ¸Ş¼­µåÀÇ ¹®¹ıÀû Æ¯Â¡°ú ÀÇ¹Ì*/
+/*this() ë©”ì„œë“œì˜ ë¬¸ë²•ì  íŠ¹ì§•ê³¼ ì˜ë¯¸*/
 
 class A{
 
 	A(){
-		System.out.println("Ã¹¹øÂ° »ı¼ºÀÚ");
+		System.out.println("ì²«ë²ˆì§¸ ìƒì„±ì");
 	}
 	A(int a){
-		this(); //¹İµå½Ã Ã¹ ÁÙ¿¡ À§Ä¡
-		System.out.println("µÎ¹øÂ° »ı¼ºÀÚ");
+		this(); //ë°˜ë“œì‹œ ì²« ì¤„ì— ìœ„ì¹˜
+		System.out.println("ë‘ë²ˆì§¸ ìƒì„±ì");
 	}
 }
 
 public class EX01_thismethod_1 {
 	public static void main(String[] args) {
 		
-		//# µÎ°¡Áö °´Ã¼ »ı¼º ¹æ¹ı
-		A a1 = new A(); 	//Ã¹¹øÂ° »ı¼ºÀÚ
-		A a2 = new A(3); 	//Ã¹¹øÂ° »ı¼ºÀÚ - µÎ¹øÂ° »ı¼ºÀÚ
+		//# ë‘ê°€ì§€ ê°ì²´ ìƒì„± ë°©ë²•
+		A a1 = new A(); 	//ì²«ë²ˆì§¸ ìƒì„±ì
+		A a2 = new A(3); 	//ì²«ë²ˆì§¸ ìƒì„±ì - ë‘ë²ˆì§¸ ìƒì„±ì
 		
 	}
 }

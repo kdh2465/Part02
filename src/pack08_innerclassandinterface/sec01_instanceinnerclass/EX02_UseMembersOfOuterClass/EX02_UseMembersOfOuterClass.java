@@ -1,27 +1,27 @@
-package pack08_innerclassandinterface.sec01_instanceinnerclass.EX02_UseMembersOfOuterClass;
+ï»¿package pack08_innerclassandinterface.sec01_instanceinnerclass.EX02_UseMembersOfOuterClass;
 
-/*ÀÌ³ÊÅ¬·¡½º ³»ºÎ¿¡¼­ ¿ÜºÎ Å¬·¡½ºÀÇ ÇÊµå/¸Ş¼­µå »ç¿ë*/
+/*ì´ë„ˆí´ë˜ìŠ¤ ë‚´ë¶€ì—ì„œ ì™¸ë¶€ í´ë˜ìŠ¤ì˜ í•„ë“œ/ë©”ì„œë“œ ì‚¬ìš©*/
 
 class A {
 	int a = 3;
 	int b = 4;
 	void abc() {
-		System.out.println("A Å¬·¡½º ¸Ş¼­µå");
+		System.out.println("A í´ë˜ìŠ¤ ë©”ì„œë“œ");
 	}
 
 	class B {
 		int a = 5;
 		int b = 6;
 		void abc() {
-			System.out.println("B Å¬·¡½º ¸Ş¼­µå");
+			System.out.println("B í´ë˜ìŠ¤ ë©”ì„œë“œ");
 		}
 		void bcd() {
-			// #1. inner class ÇÊµå/¸Ş¼­µå »ç¿ë
+			// #1. inner class í•„ë“œ/ë©”ì„œë“œ ì‚¬ìš©
 			System.out.println(a);
 			System.out.println(b);
 			abc();
 
-			// #2. outer class ÇÊµå/¸Ş¼­µå »ç¿ë
+			// #2. outer class í•„ë“œ/ë©”ì„œë“œ ì‚¬ìš©
 			System.out.println(A.this.a);
 			System.out.println(A.this.b);
 			A.this.abc();
@@ -31,10 +31,10 @@ class A {
 
 public class EX02_UseMembersOfOuterClass {
 	public static void main(String[] args) {
-		//#3. instance inner Å¬·¡½º °´Ã¼ »ı¼º
-		//@3.1. outer class °´Ã¼ »ı¼º
+		//#3. instance inner í´ë˜ìŠ¤ ê°ì²´ ìƒì„±
+		//@3.1. outer class ê°ì²´ ìƒì„±
 		A a = new A();
-		//@3.2 outer ÂüÁ¶º¯¼ö·Î ºÎÅÍ innerÅ¬·¡½º °´Ã¼ »ı¼º
+		//@3.2 outer ì°¸ì¡°ë³€ìˆ˜ë¡œ ë¶€í„° innerí´ë˜ìŠ¤ ê°ì²´ ìƒì„±
 		A.B b = a.new B();
 		b.bcd();
 	}

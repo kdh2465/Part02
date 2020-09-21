@@ -1,29 +1,29 @@
-package pack05_inheritanceandpolymorphism.sec05_superkeywordandsupermethod.EX03_supermethod_1;
+ï»¿package pack05_inheritanceandpolymorphism.sec05_superkeywordandsupermethod.EX03_supermethod_1;
 
-/*super() ¸Ş¼­µåÀÇ ±â´É ¹× ÄÄÆÄÀÏ¿¡ ÀÇÇÑ ÀÚµ¿Ãß°¡ super()*/
+/*super() ë©”ì„œë“œì˜ ê¸°ëŠ¥ ë° ì»´íŒŒì¼ì— ì˜í•œ ìë™ì¶”ê°€ super()*/
 
 class A {
 	A() {
-		System.out.println("A »ı¼ºÀÚ");
+		System.out.println("A ìƒì„±ì");
 	}
 }
 
 class B extends A {
 	B() {
-		super(); // »ı·«½Ã ÀÚµ¿À¸·Î Ãß°¡µÊ
-		System.out.println("B »ı¼ºÀÚ");
+		super(); // ìƒëµì‹œ ìë™ìœ¼ë¡œ ì¶”ê°€ë¨
+		System.out.println("B ìƒì„±ì");
 	}
 }
 
 class C {
 	C(int a) {
-		System.out.println("C »ı¼ºÀÚ");
+		System.out.println("C ìƒì„±ì");
 	}
 }
-/* ¿À·ù
+/* ì˜¤ë¥˜
  * class D extends C {
  * 
- * //ÄÄÆÄÀÏ·¯°¡ Ãß°¡ÇØÁÖ´Â ºÎºĞ 
+ * //ì»´íŒŒì¼ëŸ¬ê°€ ì¶”ê°€í•´ì£¼ëŠ” ë¶€ë¶„ 
  * D(){ super();  }
  * 
  * }
@@ -31,10 +31,10 @@ class C {
 
 public class EX03_supermethod_1 {
 	public static void main(String[] args) {
-		//#1. A °´Ã¼ »ı¼º
-		A aa = new A(); // A »ı¼ºÀÚ
+		//#1. A ê°ì²´ ìƒì„±
+		A aa = new A(); // A ìƒì„±ì
 		
-		//#2. B °´Ã¼ »ı¼º
-		B bb = new B(); // A »ı¼ºÀÚ B »ı¼ºÀÚ
+		//#2. B ê°ì²´ ìƒì„±
+		B bb = new B(); // A ìƒì„±ì B ìƒì„±ì
 	}
 }

@@ -1,6 +1,6 @@
-package pack07_abstractclassandinterface.sec01_abstractclass.EX02_CreateObjectOfAbstractClass_2;
+ï»¿package pack07_abstractclassandinterface.sec01_abstractclass.EX02_CreateObjectOfAbstractClass_2;
 
-/*ÀÍ¸íÀÌ³ÊÅ¬·¡½º¸¦ È°¿ëÇÑ Ãß»óÅ¬·¡½ºÅ¸ÀÔÀÇ °´Ã¼ »ý¼º (¹æ¹ý#2)*/
+/*ìµëª…ì´ë„ˆí´ëž˜ìŠ¤ë¥¼ í™œìš©í•œ ì¶”ìƒí´ëž˜ìŠ¤íƒ€ìž…ì˜ ê°ì²´ ìƒì„± (ë°©ë²•#2)*/
 
 abstract class A {
 	abstract void abc() ;
@@ -9,17 +9,17 @@ abstract class A {
 public class EX02_CreateObjectOfAbstractClass_2 {
 	public static void main(String[] args) {
 
-		//#2. ÀÍ¸í ÀÌ³ÊÅ¬·¡½º
+		//#2. ìµëª… ì´ë„ˆí´ëž˜ìŠ¤
 		A a1 = new A() {
 			@Override
 			void abc() {
-				System.out.println("¹æ¹ý#2. Ãß»ó¸Þ¼­µå ±¸Çö (¹Ì¿Ï¼º-> ¿Ï¼º)");			
+				System.out.println("ë°©ë²•#2. ì¶”ìƒë©”ì„œë“œ êµ¬í˜„ (ë¯¸ì™„ì„±-> ì™„ì„±)");			
 			}
 		};
 		A a2 = new A() {
 			@Override
 			void abc() {
-				System.out.println("¹æ¹ý#2. Ãß»ó¸Þ¼­µå ±¸Çö (¹Ì¿Ï¼º-> ¿Ï¼º)");			
+				System.out.println("ë°©ë²•#2. ì¶”ìƒë©”ì„œë“œ êµ¬í˜„ (ë¯¸ì™„ì„±-> ì™„ì„±)");			
 			}
 		};
 		a1.abc();

@@ -1,6 +1,6 @@
-package pack04_modifier_1.sec02_staticmodifier.EX04_StaticInitialBlock;
+ï»¿package pack04_modifier_1.sec02_staticmodifier.EX04_StaticInitialBlock;
 
-/*Á¤Àû ÃÊ±âÈ­ ºí·Ï*/
+/*ì •ì  ì´ˆê¸°í™” ë¸”ë¡*/
 
 class A {
 
@@ -9,11 +9,11 @@ class A {
 
 	static {
 		b = 5;
-		System.out.println("Å¬·¡½º°¡ ·ÎµùµÉ¶§ static block ½ÇÇà");
+		System.out.println("í´ë˜ìŠ¤ê°€ ë¡œë”©ë ë•Œ static block ì‹¤í–‰");
 	}
 
 	A() {
-		a = 3; // instance ÇÊµåÀÇ ÃÊ±âÈ­ À§Ä¡
+		a = 3; // instance í•„ë“œì˜ ì´ˆê¸°í™” ìœ„ì¹˜
 	}
 
 }

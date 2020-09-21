@@ -1,20 +1,20 @@
-package pack02_internalcomponents.sec03_constructor.EX01_DefaultConstructor;
+ï»¿package pack02_internalcomponents.sec03_constructor.EX01_DefaultConstructor;
 
-/*±âº» »ı¼ºÀÚÀÇ ÀÚµ¿ Ãß°¡*/
+/*ê¸°ë³¸ ìƒì„±ìì˜ ìë™ ì¶”ê°€*/
 
 class A {
 	int m;
 	void work() {
 		System.out.println(m);
 	}
-	//±âº»»ı¼ºÀÚ ÀÚµ¿ Ãß°¡ A(){}
+	//ê¸°ë³¸ìƒì„±ì ìë™ ì¶”ê°€ A(){}
 }
 class B{	
 	int m;
 	void work() {
 		System.out.println(m);
 	}
-	B(){ //±âº»»ı¼ºÀÚ		
+	B(){ //ê¸°ë³¸ìƒì„±ì		
 	}
 }
 class C{
@@ -22,7 +22,7 @@ class C{
 	void work() {
 		System.out.println(m);
 	}
-	C(int a){ //±âº»»ı¼ºÀÚ
+	C(int a){ //ê¸°ë³¸ìƒì„±ì
 		m=a;
 	}
 }
@@ -30,13 +30,13 @@ class C{
 public class EX01_DefaultConstructor {
 	public static void main(String[] args) {
 		
-		//#1. ±âº»»ı¼ºÀÚ¸¦ ÀÌ¿ëÇÑ °´Ã¼ »ı¼º
+		//#1. ê¸°ë³¸ìƒì„±ìë¥¼ ì´ìš©í•œ ê°ì²´ ìƒì„±
 		A a = new A();
 		B b = new B();
-		//C c = new C(); //¿À·ù (±âº»»ı¼ºÀÚ ¾øÀ½)
+		//C c = new C(); //ì˜¤ë¥˜ (ê¸°ë³¸ìƒì„±ì ì—†ìŒ)
 		C c = new C(3);
 		
-		//#2. ¸Ş¼­µå È£Ãâ
+		//#2. ë©”ì„œë“œ í˜¸ì¶œ
 		a.work();	//0
 		b.work();	//0
 		c.work();	//3

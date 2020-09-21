@@ -1,30 +1,30 @@
-package pack04_modifier_1.sec02_staticmodifier.EX03_StaticMethod;
+ï»¿package pack04_modifier_1.sec02_staticmodifier.EX03_StaticMethod;
 
-/*ÀÎ½ºÅÏ½º ¸Ş¼­µå¿Í Á¤Àû ¸Ş¼­µå*/
+/*ì¸ìŠ¤í„´ìŠ¤ ë©”ì„œë“œì™€ ì •ì  ë©”ì„œë“œ*/
 
 class A{
-	void abc(){ //ÀÎ½ºÅÏ½º ¸Ş¼­µå
-		System.out.println("instance ¸Ş¼­µå");
+	void abc(){ //ì¸ìŠ¤í„´ìŠ¤ ë©”ì„œë“œ
+		System.out.println("instance ë©”ì„œë“œ");
 	}
 
-	static void bcd(){ //static ¸Ş¼­µå
-		System.out.println("static ¸Ş¼­µå");
+	static void bcd(){ //static ë©”ì„œë“œ
+		System.out.println("static ë©”ì„œë“œ");
 	}
 }
 
 public class EX03_StaticMethod {
 	public static void main(String[] args) {
 	
-		//#1. ÀÎ½ºÅÏ½º ¸Ş¼­µå È°¿ë ¹æ¹ı (1.°´Ã¼ »ı¼º  2.¸Ş¼­µå È£Ãâ)
+		//#1. ì¸ìŠ¤í„´ìŠ¤ ë©”ì„œë“œ í™œìš© ë°©ë²• (1.ê°ì²´ ìƒì„±  2.ë©”ì„œë“œ í˜¸ì¶œ)
 		A a = new A();
-		a.abc(); //instance ¸Ş¼­µå
+		a.abc(); //instance ë©”ì„œë“œ
 		
-		//#2. static ¸Ş¼­µå È°¿ë ¹æ¹ı 
-		//@¹æ¹ı #1 (1.Å¬·¡½ºÀÌ¸§À¸·Î ¹Ù·Î Á¢±Ù)
-		A.bcd(); 	//static ¸Ş¼­µå
-		//@¹æ¹ı #2 (1.°´Ã¼ »ı¼º  2.¸Ş¼­µå È£Ãâ)
+		//#2. static ë©”ì„œë“œ í™œìš© ë°©ë²• 
+		//@ë°©ë²• #1 (1.í´ë˜ìŠ¤ì´ë¦„ìœ¼ë¡œ ë°”ë¡œ ì ‘ê·¼)
+		A.bcd(); 	//static ë©”ì„œë“œ
+		//@ë°©ë²• #2 (1.ê°ì²´ ìƒì„±  2.ë©”ì„œë“œ í˜¸ì¶œ)
 		A a2 = new A(); 
-		a2.bcd(); 	//static ¸Ş¼­µå
+		a2.bcd(); 	//static ë©”ì„œë“œ
 		
 	}
 }

@@ -1,6 +1,6 @@
-package pack03_externalcomponents.sec02_externalclass.EX02_ExternalClass_2;
+ï»¿package pack03_externalcomponents.sec02_externalclass.EX02_ExternalClass_2;
 
-/*¿ÜºÎÅ¬·¡½º¸¦ º°µµÀÇ ÆÄÀÏ·Î ºĞ¸®*/
+/*ì™¸ë¶€í´ë˜ìŠ¤ë¥¼ ë³„ë„ì˜ íŒŒì¼ë¡œ ë¶„ë¦¬*/
 
 public class EX02_ExternalClass_2 {
 	public static void main(String[] args) {

@@ -1,6 +1,6 @@
-package pack05_inheritanceandpolymorphism.sec03_methodoverriding.EX02_MethodOverriding_2;
+ï»¿package pack05_inheritanceandpolymorphism.sec03_methodoverriding.EX02_MethodOverriding_2;
 
-/*¸Ş¼­µå ¿À¹ö¶óÀÌµùÀÇ ´ëÇ¥Àû ¿¹½Ã*/
+/*ë©”ì„œë“œ ì˜¤ë²„ë¼ì´ë”©ì˜ ëŒ€í‘œì  ì˜ˆì‹œ*/
 
 class Animal {
 	void cry() {
@@ -10,48 +10,48 @@ class Animal {
 
 class Bird extends Animal {
 	void cry() {
-		System.out.println("Â±Â±");		
+		System.out.println("ì§¹ì§¹");		
 	}
 }
 class Dog extends Animal {
 	void cry() {
-		System.out.println("¸Û¸Û");		
+		System.out.println("ë©ë©");		
 	}
 }
 class Cat extends Animal {
 	void cry() {
-		System.out.println("¾ß¿Ë");		
+		System.out.println("ì•¼ì˜¹");		
 	}
 }
 
 public class EX02_MethodOverriding_2 {
 	public static void main(String[] args) {
 		
-		//#1. °¢°¢ÀÇ Å¸ÀÔÀ¸·Î ¼±¾ğ + °¢°¢ÀÇ Å¸ÀÔÀ¸·Î °´Ã¼ »ı¼º
+		//#1. ê°ê°ì˜ íƒ€ì…ìœ¼ë¡œ ì„ ì–¸ + ê°ê°ì˜ íƒ€ì…ìœ¼ë¡œ ê°ì²´ ìƒì„±
 		Animal aa = new Animal();
 		Bird bb = new Bird();
 		Cat cc = new Cat();
 		Dog dd = new Dog();
 		
-		aa.cry(); //Ãâ·Â¾øÀ½
-		bb.cry(); //Â±Â±
-		cc.cry(); //¾ß¿Ë
-		dd.cry(); //¸Û¸Û
+		aa.cry(); //ì¶œë ¥ì—†ìŒ
+		bb.cry(); //ì§¹ì§¹
+		cc.cry(); //ì•¼ì˜¹
+		dd.cry(); //ë©ë©
 		
-		//#2. Animal Å¸ÀÔÀ¸·Î ¼±¾ğ + ÀÚ½ÄÅ¬·¡½º Å¸ÀÔÀ¸·Î °´Ã¼ »ı¼º (´ÙÇüÀû Ç¥Çö)
+		//#2. Animal íƒ€ì…ìœ¼ë¡œ ì„ ì–¸ + ìì‹í´ë˜ìŠ¤ íƒ€ì…ìœ¼ë¡œ ê°ì²´ ìƒì„± (ë‹¤í˜•ì  í‘œí˜„)
 		Animal ab = new Bird();
 		Animal ac = new Cat();
 		Animal ad = new Dog();
 		
-		ab.cry(); //Â±Â±
-		ac.cry(); //¾ß¿Ë
-		ad.cry(); //¸Û¸Û
+		ab.cry(); //ì§¹ì§¹
+		ac.cry(); //ì•¼ì˜¹
+		ad.cry(); //ë©ë©
 		
-		//#3. ¹è¿­·Î °ü¸®
+		//#3. ë°°ì—´ë¡œ ê´€ë¦¬
 		Animal[] animals = new Animal[] {new Bird(), new Cat(), new Dog()};
 		for(Animal animal : animals) {
 			animal.cry(); 
-		} //Â±Â±, ¾ß¿Ë, ¸Û¸Û
+		} //ì§¹ì§¹, ì•¼ì˜¹, ë©ë©
 					
 	}
 

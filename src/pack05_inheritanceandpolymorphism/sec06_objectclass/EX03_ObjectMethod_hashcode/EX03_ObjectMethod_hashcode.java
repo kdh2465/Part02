@@ -1,9 +1,9 @@
-package pack05_inheritanceandpolymorphism.sec06_objectclass.EX03_ObjectMethod_hashcode;
+ï»¿package pack05_inheritanceandpolymorphism.sec06_objectclass.EX03_ObjectMethod_hashcode;
 import java.util.HashMap;
 
-/*Object Å¬·¡½ºÀÇ hashCode() ¸Ş¼­µå*/
+/*Object í´ë˜ìŠ¤ì˜ hashCode() ë©”ì„œë“œ*/
 
-class A { //equals() ¸Ş¼­µå overriding
+class A { //equals() ë©”ì„œë“œ overriding
 	String name;
 	A(String name) {
 		this.name=name;		
@@ -22,7 +22,7 @@ class A { //equals() ¸Ş¼­µå overriding
 	}
 }
 
-class B { //equals() ¸Ş¼­µå overriding
+class B { //equals() ë©”ì„œë“œ overriding
 	String name;
 	B(String name) {
 		this.name=name;		
@@ -49,22 +49,22 @@ public class EX03_ObjectMethod_hashcode {
 	public static void main(String[] args) {
 		
 		HashMap<Integer, String> hm1 = new HashMap<>();
-		hm1.put(1, "µ¥ÀÌÅÍ1");
-		hm1.put(1, "µ¥ÀÌÅÍ2");
-		hm1.put(2, "µ¥ÀÌÅÍ3");
-		System.out.println(hm1); //{1=µ¥ÀÌÅÍ2, 2=µ¥ÀÌÅÍ3}
+		hm1.put(1, "ë°ì´í„°1");
+		hm1.put(1, "ë°ì´í„°2");
+		hm1.put(2, "ë°ì´í„°3");
+		System.out.println(hm1); //{1=ë°ì´í„°2, 2=ë°ì´í„°3}
 				
 		HashMap<A, String> hm2 = new HashMap<>();		
-		hm2.put(new A("Ã¹¹øÂ°"), "µ¥ÀÌÅÍ1");
-		hm2.put(new A("Ã¹¹øÂ°"), "µ¥ÀÌÅÍ2");
-		hm2.put(new A("µÎ¹øÂ°"), "µ¥ÀÌÅÍ3");
-		System.out.println(hm2); //{Ã¹¹øÂ°=µ¥ÀÌÅÍ2, µÎ¹øÂ°=µ¥ÀÌÅÍ3, Ã¹¹øÂ°=µ¥ÀÌÅÍ1}
+		hm2.put(new A("ì²«ë²ˆì§¸"), "ë°ì´í„°1");
+		hm2.put(new A("ì²«ë²ˆì§¸"), "ë°ì´í„°2");
+		hm2.put(new A("ë‘ë²ˆì§¸"), "ë°ì´í„°3");
+		System.out.println(hm2); //{ì²«ë²ˆì§¸=ë°ì´í„°2, ë‘ë²ˆì§¸=ë°ì´í„°3, ì²«ë²ˆì§¸=ë°ì´í„°1}
 		
 		HashMap<B, String> hm3 = new HashMap<>();		
-		hm3.put(new B("Ã¹¹øÂ°"), "µ¥ÀÌÅÍ1");
-		hm3.put(new B("Ã¹¹øÂ°"), "µ¥ÀÌÅÍ2");
-		hm3.put(new B("µÎ¹øÂ°"), "µ¥ÀÌÅÍ3");
-		System.out.println(hm3); //{Ã¹¹øÂ°=µ¥ÀÌÅÍ2, µÎ¹øÂ°=µ¥ÀÌÅÍ3}
+		hm3.put(new B("ì²«ë²ˆì§¸"), "ë°ì´í„°1");
+		hm3.put(new B("ì²«ë²ˆì§¸"), "ë°ì´í„°2");
+		hm3.put(new B("ë‘ë²ˆì§¸"), "ë°ì´í„°3");
+		System.out.println(hm3); //{ì²«ë²ˆì§¸=ë°ì´í„°2, ë‘ë²ˆì§¸=ë°ì´í„°3}
 				
 	}
 }

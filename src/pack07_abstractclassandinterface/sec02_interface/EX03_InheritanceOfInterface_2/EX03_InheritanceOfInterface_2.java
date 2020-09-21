@@ -1,13 +1,13 @@
-package pack07_abstractclassandinterface.sec02_interface.EX03_InheritanceOfInterface_2;
+ï»¿package pack07_abstractclassandinterface.sec02_interface.EX03_InheritanceOfInterface_2;
 
-/*ÀÎÅÍÆäÀÌ½º »ó¼Ó ÀÚ½ÄÅ¬·¡½ºÀÇ Á¢±ÙÁöÁ¤ÀÚ*/
+/*ì¸í„°í˜ì´ìŠ¤ ìƒì† ìì‹í´ë˜ìŠ¤ì˜ ì ‘ê·¼ì§€ì •ì*/
 
 interface A {	
 	public abstract void abc();	
 }
 
 interface B {	
-	void bcd();	//public abstract ÀÚµ¿ Ãß°¡
+	void bcd();	//public abstract ìë™ ì¶”ê°€
 }
 
 class C implements A {
@@ -16,10 +16,10 @@ class C implements A {
 		// ...		
 	}
 }
-/* overriding½Ã Á¢±ÙÁöÁ¤ÀÚÀÇ ¹üÀ§´Â Á¼¾ÆÁú ¼ö ¾øÀ½
+/* overridingì‹œ ì ‘ê·¼ì§€ì •ìì˜ ë²”ìœ„ëŠ” ì¢ì•„ì§ˆ ìˆ˜ ì—†ìŒ
 class D implements B {
 	@Override
-	void bcd() { // (ºÒ°¡´É) 
+	void bcd() { // (ë¶ˆê°€ëŠ¥) 
 		// ...		
 	}
 }

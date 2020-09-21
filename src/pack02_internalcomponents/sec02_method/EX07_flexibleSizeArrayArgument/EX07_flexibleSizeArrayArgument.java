@@ -1,22 +1,22 @@
-package pack02_internalcomponents.sec02_method.EX07_flexibleSizeArrayArgument;
+ï»¿package pack02_internalcomponents.sec02_method.EX07_flexibleSizeArrayArgument;
 
-/*¸Ş¼­µåÀÇ °¡º¯±æÀÌ ¹è¿­ ¸Å°³º¯¼ö*/
+/*ë©”ì„œë“œì˜ ê°€ë³€ê¸¸ì´ ë°°ì—´ ë§¤ê°œë³€ìˆ˜*/
 
 public class EX07_flexibleSizeArrayArgument {
 	public static void main(String[] args) {
-		//#1. ±æÀÌ°¡ Á¤ÇØÁ® ÀÖÁö ¾ÊÀº int¹è¿­ ¸Å°³º¯¼ö
-		method1(1,2); //¸Å°³º¯¼ö±æÀÌ:2 --> 1,2
-		method1(1,2,3); //¸Å°³º¯¼ö±æÀÌ:3 --> 1,2,3
-		method1(); //¸Å°³º¯¼ö±æÀÌ:0 --> X
+		//#1. ê¸¸ì´ê°€ ì •í•´ì ¸ ìˆì§€ ì•Šì€ intë°°ì—´ ë§¤ê°œë³€ìˆ˜
+		method1(1,2); //ë§¤ê°œë³€ìˆ˜ê¸¸ì´:2 --> 1,2
+		method1(1,2,3); //ë§¤ê°œë³€ìˆ˜ê¸¸ì´:3 --> 1,2,3
+		method1(); //ë§¤ê°œë³€ìˆ˜ê¸¸ì´:0 --> X
 		
-		//#2. ±æÀÌ°¡ Á¤ÇØÁ® ÀÖÁö ¾ÊÀº String¹è¿­ ¸Å°³º¯¼ö
-		method2("¾È³ç","¹æ°¡"); //¸Å°³º¯¼ö±æÀÌ:2 --> "¾È³ç","¹æ°¡"
-		method2("¶¯Å¥","º£¸®","°¨»ç"); //¸Å°³º¯¼ö±æÀÌ:3 --> "¶¯Å¥","º£¸®","°¨»ç"
-		method2(); //¸Å°³º¯¼ö±æÀÌ:0 --> X
+		//#2. ê¸¸ì´ê°€ ì •í•´ì ¸ ìˆì§€ ì•Šì€ Stringë°°ì—´ ë§¤ê°œë³€ìˆ˜
+		method2("ì•ˆë…•","ë°©ê°€"); //ë§¤ê°œë³€ìˆ˜ê¸¸ì´:2 --> "ì•ˆë…•","ë°©ê°€"
+		method2("ë•¡í","ë² ë¦¬","ê°ì‚¬"); //ë§¤ê°œë³€ìˆ˜ê¸¸ì´:3 --> "ë•¡í","ë² ë¦¬","ê°ì‚¬"
+		method2(); //ë§¤ê°œë³€ìˆ˜ê¸¸ì´:0 --> X
 		
 	}
 	public static void method1(int... values) {
-		System.out.println("¸Å°³º¯¼ö ±æÀÌ : "+values.length);
+		System.out.println("ë§¤ê°œë³€ìˆ˜ ê¸¸ì´ : "+values.length);
 		for(int i=0; i<values.length; i++) {
 			System.out.print(values[i]+" ");
 		}
@@ -26,7 +26,7 @@ public class EX07_flexibleSizeArrayArgument {
 //		}
 	}
 	public static void method2(String...values) {
-		System.out.println("¸Å°³º¯¼ö ±æÀÌ : "+values.length);
+		System.out.println("ë§¤ê°œë³€ìˆ˜ ê¸¸ì´ : "+values.length);
 		for(int i=0; i<values.length; i++) {
 			System.out.print(values[i]+" ");
 		}

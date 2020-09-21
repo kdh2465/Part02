@@ -1,37 +1,37 @@
-package pack05_inheritanceandpolymorphism.sec02_typecasting.EX02_TypeCastingOfObject_2;
+ï»¿package pack05_inheritanceandpolymorphism.sec02_typecasting.EX02_TypeCastingOfObject_2;
 
-/*¼±¾ğÅ¸ÀÔ¿¡ µû¸¥ »ç¿ë°¡´ÉÇÑ ¸â¹ö*/
+/*ì„ ì–¸íƒ€ì…ì— ë”°ë¥¸ ì‚¬ìš©ê°€ëŠ¥í•œ ë©¤ë²„*/
 
 class A {
 	int m=3;
 	void abc(){
-		System.out.println("A Å¬·¡½º");
+		System.out.println("A í´ë˜ìŠ¤");
 	}
 }
 
 class B extends A{
 	int n=4;
 	void bcd(){
-		System.out.println("B Å¬·¡½º");
+		System.out.println("B í´ë˜ìŠ¤");
 	}
 }
 
 public class EX02_TypeCastingOfObject_2 {
 	public static void main(String[] args) {
 		
-		//#1. A Å¸ÀÔ + A °´Ã¼ : ÇÊµå 1°³ + ¸Ş¼­µå 1°³
+		//#1. A íƒ€ì… + A ê°ì²´ : í•„ë“œ 1ê°œ + ë©”ì„œë“œ 1ê°œ
 		A aa = new A(); 
 		System.out.println(aa.m);
-		aa.abc();//E Å¬·¡½º
+		aa.abc();//E í´ë˜ìŠ¤
 		
-		//#2. B Å¸ÀÔ + B °´Ã¼ : ÇÊµå 2°³ + ¸Ş¼­µå2°³
+		//#2. B íƒ€ì… + B ê°ì²´ : í•„ë“œ 2ê°œ + ë©”ì„œë“œ2ê°œ
 		B bb = new B();
 		System.out.println(bb.m);
 		System.out.println(bb.n);
 		bb.abc();
 		bb.bcd();
 		
-		//#3. A Å¸ÀÔ + B °´Ã¼ : ÇÊµå 1°³ + ¸Ş¼­µå 1°³ (Å¸ÀÔ³»ÀÇ ¸â¹ö¸¸ »ç¿ë °¡´É)
+		//#3. A íƒ€ì… + B ê°ì²´ : í•„ë“œ 1ê°œ + ë©”ì„œë“œ 1ê°œ (íƒ€ì…ë‚´ì˜ ë©¤ë²„ë§Œ ì‚¬ìš© ê°€ëŠ¥)
 		A ab = new B();
 		System.out.println(ab.m);
 		//System.out.println(ab.n); //X

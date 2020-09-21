@@ -1,42 +1,42 @@
-package pack07_abstractclassandinterface.sec02_interface.EX06_DefaultMethod_1;
+ï»¿package pack07_abstractclassandinterface.sec02_interface.EX06_DefaultMethod_1;
 
-/*ÀÎÅÍÆäÀÌ½º ±¸Çö ¹× µğÆúÆ®¸Ş¼­µåÀÇ ¿À¹ö¶óÀÌµù*/
+/*ì¸í„°í˜ì´ìŠ¤ êµ¬í˜„ ë° ë””í´íŠ¸ë©”ì„œë“œì˜ ì˜¤ë²„ë¼ì´ë”©*/
 
 interface A {
-	void abc(); //2020³â °³¹ß
+	void abc(); //2020ë…„ ê°œë°œ
 	default void bcd() {
-		System.out.println("A ÀÎÅÍÆäÀÌ½ºÀÇ bcd()");
+		System.out.println("A ì¸í„°í˜ì´ìŠ¤ì˜ bcd()");
 	}
 }
-//#1. Ãß»ó¸Ş¼­µå¸¸ ±¸Çö
+//#1. ì¶”ìƒë©”ì„œë“œë§Œ êµ¬í˜„
 class B implements A{
 	@Override
 	public void abc() {
-		System.out.println("B Å¬·¡½ºÀÇ abc()");
+		System.out.println("B í´ë˜ìŠ¤ì˜ abc()");
 	}
 }
-//#2. Ãß»ó¸Ş¼­µå ±¸Çö + µğÆúÆ® ¸Ş¼­µå ¿À¹ö¶óÀÌµù
+//#2. ì¶”ìƒë©”ì„œë“œ êµ¬í˜„ + ë””í´íŠ¸ ë©”ì„œë“œ ì˜¤ë²„ë¼ì´ë”©
 class C implements A {
 	@Override
 	public void abc() {
-		System.out.println("C Å¬·¡½ºÀÇ abc()");
+		System.out.println("C í´ë˜ìŠ¤ì˜ abc()");
 	}
 	public void bcd() {
-		System.out.println("C Å¬·¡½ºÀÇ bcd()");
+		System.out.println("C í´ë˜ìŠ¤ì˜ bcd()");
 	};
 }
 
 public class EX06_DefaultMethod_1 {
 	public static void main(String[] args) {
-		//#1. B °´Ã¼ »ı¼º ¹× ¸Ş¼­µå È£Ãâ
+		//#1. B ê°ì²´ ìƒì„± ë° ë©”ì„œë“œ í˜¸ì¶œ
 		B b = new B();
-		b.abc();	//B Å¬·¡½ºÀÇ abc()
-		b.bcd();	//A ÀÎÅÍÆäÀÌ½ºÀÇ bcd()
+		b.abc();	//B í´ë˜ìŠ¤ì˜ abc()
+		b.bcd();	//A ì¸í„°í˜ì´ìŠ¤ì˜ bcd()
 		
-		//#2. C °´Ã¼ »ı¼º ¹× ¸Ş¼­µå È£Ãâ
+		//#2. C ê°ì²´ ìƒì„± ë° ë©”ì„œë“œ í˜¸ì¶œ
 		C c = new C();
-		c.abc();	//C Å¬·¡½ºÀÇ abc()
-		c.bcd();	//C Å¬·¡½ºÀÇ bcd()
+		c.abc();	//C í´ë˜ìŠ¤ì˜ abc()
+		c.bcd();	//C í´ë˜ìŠ¤ì˜ bcd()
 	}
 
 }

@@ -1,6 +1,6 @@
-package pack02_internalcomponents.sec05_thismethod.EX02_thismethod_2;
+ï»¿package pack02_internalcomponents.sec05_thismethod.EX02_thismethod_2;
 
-/*this()ÀÇ È°¿ë*/
+/*this()ì˜ í™œìš©*/
 
 class A{
 	int m1, m2, m3, m4;
@@ -50,13 +50,13 @@ class B{
 public class EX02_thismethod_2 {
 	public static void main(String[] args) {
 		
-		//# ¼¼ °¡Áö °´Ã¼ »ı¼º ¹æ¹ı (this() ¹Ì»ç¿ë)
+		//# ì„¸ ê°€ì§€ ê°ì²´ ìƒì„± ë°©ë²• (this() ë¯¸ì‚¬ìš©)
 		A a1 = new A(); 		a1.print();	//1,2,3,4
 		A a2 = new A(10);		a2.print(); //10,2,3,4
 		A a3 = new A(10,20);	a3.print(); //10,20,3,4
 		System.out.println();
 		
-		//# ¼¼ °¡Áö °´Ã¼ »ı¼º ¹æ¹ı (this() »ç¿ë)
+		//# ì„¸ ê°€ì§€ ê°ì²´ ìƒì„± ë°©ë²• (this() ì‚¬ìš©)
 		B b1 = new B(); 		b1.print();	//1,2,3,4
 		B b2 = new B(10);		b2.print(); //10,2,3,4
 		B b3 = new B(10,20);	b3.print(); //10,20,3,4

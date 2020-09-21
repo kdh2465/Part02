@@ -1,6 +1,6 @@
-package pack05_inheritanceandpolymorphism.sec06_objectclass.EX01_ObjectMethod_toString;
+ï»¿package pack05_inheritanceandpolymorphism.sec06_objectclass.EX01_ObjectMethod_toString;
  
-/*Object Å¬·¡½ºÀÇ toString() ¸Ş¼­µå*/
+/*Object í´ë˜ìŠ¤ì˜ toString() ë©”ì„œë“œ*/
 
 class A {
 	int a=3;
@@ -12,7 +12,7 @@ class B { //toString() overriding
 	int b=4;
 	@Override
 	public String toString() {
-		return "ÇÊµå°ª: a="+a + ", b="+b;
+		return "í•„ë“œê°’: a="+a + ", b="+b;
 	}
 }
  
@@ -20,11 +20,11 @@ public class EX01_ObjectMethod_toString {
 	public static void main(String[] args) {
 		
 		A aa = new A();
-		System.out.printf("%x\n",aa.hashCode()); //ÇØ½¬ÄÚµå
-		System.out.println(aa); //ÆĞÅ°Áö.Å¬·¡½º¸í@ÇØ½¬ÄÚµå
+		System.out.printf("%x\n",aa.hashCode()); //í•´ì‰¬ì½”ë“œ
+		System.out.println(aa); //íŒ¨í‚¤ì§€.í´ë˜ìŠ¤ëª…@í•´ì‰¬ì½”ë“œ
 		
 		B bb = new B();		
-		System.out.println(bb); //ÆĞÅ°Áö.Å¬·¡½º¸í@ÇØ½¬ÄÚµå
+		System.out.println(bb); //íŒ¨í‚¤ì§€.í´ë˜ìŠ¤ëª…@í•´ì‰¬ì½”ë“œ
 				
 	}
 }

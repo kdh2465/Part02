@@ -1,6 +1,6 @@
-package pack08_innerclassandinterface.sec04_anonymousclass.EX02_anonymousclass_2;
+ï»¿package pack08_innerclassandinterface.sec04_anonymousclass.EX02_anonymousclass_2;
 
-/*ÀÍ¸íÀÌ³ÊÅ¬·¡½º¸¦ È°¿ëÇÏ¿© ÀÎÅÍÆäÀÌ½º °´Ã¼ »ı¼º*/
+/*ìµëª…ì´ë„ˆí´ë˜ìŠ¤ë¥¼ í™œìš©í•˜ì—¬ ì¸í„°í˜ì´ìŠ¤ ê°ì²´ ìƒì„±*/
 
 interface C {
 	public abstract void bcd();
@@ -10,7 +10,7 @@ class A {
 
 	C b = new C() {
 		public void bcd(){
-		      System.out.println("ÀÍ¸í ÀÌ³ÊÅ¬·¡½º");  
+		      System.out.println("ìµëª… ì´ë„ˆí´ë˜ìŠ¤");  
 		}
 	};
 
@@ -21,7 +21,7 @@ class A {
 
 public class EX02_anonymousclass_2 {
 	public static void main(String[] args) {
-		//°´Ã¼ »ı¼º
+		//ê°ì²´ ìƒì„±
 		A a = new A();
 		a.abc();
 	}

@@ -1,6 +1,6 @@
-package pack03_externalcomponents.sec02_externalclass.EX01_ExternalClass_1;
+ï»¿package pack03_externalcomponents.sec02_externalclass.EX01_ExternalClass_1;
 
-/*ÇÏ³ªÀÇ ÆÄÀÏ¿¡ ¿ÜºÎ Å¬·¡½º ±¸¼º*/
+/*í•˜ë‚˜ì˜ íŒŒì¼ì— ì™¸ë¶€ í´ë˜ìŠ¤ êµ¬ì„±*/
 
 class A {
 	int m=3;

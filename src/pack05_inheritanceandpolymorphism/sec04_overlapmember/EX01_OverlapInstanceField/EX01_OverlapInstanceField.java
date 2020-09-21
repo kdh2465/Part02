@@ -1,6 +1,6 @@
-package pack05_inheritanceandpolymorphism.sec04_overlapmember.EX01_OverlapInstanceField;
+ï»¿package pack05_inheritanceandpolymorphism.sec04_overlapmember.EX01_OverlapInstanceField;
 
-/*ÀÎ½ºÅÏ½º ÇÊµåÀÇ Áßº¹*/
+/*ì¸ìŠ¤í„´ìŠ¤ í•„ë“œì˜ ì¤‘ë³µ*/
 
 class A{
 	int m = 3;	
@@ -12,12 +12,12 @@ class B extends A{
 public class EX01_OverlapInstanceField {
 	public static void main(String[] args) {
 		
-		//#1. °´Ã¼ »ı¼º
+		//#1. ê°ì²´ ìƒì„±
 		A aa = new A();
 		B bb = new B();
 		A ab = new B();
 		
-		//#2. ÀÎ½ºÅÏ½º ÇÊµå 
+		//#2. ì¸ìŠ¤í„´ìŠ¤ í•„ë“œ 
 		System.out.println(aa.m); //3
 		System.out.println(bb.m); //4
 		System.out.println(ab.m); //3

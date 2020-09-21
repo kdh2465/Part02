@@ -1,6 +1,6 @@
-package pack07_abstractclassandinterface.sec02_interface.EX01_InterfaceCharacteristic;
+ï»¿package pack07_abstractclassandinterface.sec02_interface.EX01_InterfaceCharacteristic;
 
-/*ÀÎÅÍÆäÀÌ½º³» ÇÊµå ¹× ¸Ş¼­µåÀÇ Á¦¾îÀÚ*/
+/*ì¸í„°í˜ì´ìŠ¤ë‚´ í•„ë“œ ë° ë©”ì„œë“œì˜ ì œì–´ì*/
 
 interface A {
 	public static final int a=3;
@@ -8,20 +8,20 @@ interface A {
 }
 
 interface B {
-	int b=3;  	//public static final ÀÚµ¿ Ãß°¡
-	void bcd();	//public abstract ÀÚµ¿ Ãß°¡
+	int b=3;  	//public static final ìë™ ì¶”ê°€
+	void bcd();	//public abstract ìë™ ì¶”ê°€
 }
 
 public class EX01_InterfaceCharacteristic {
 	public static void main(String[] args) {
 		
-		//#1. ÇÊµåÀÇ static Æ¯Â¡ È®ÀÎ (Å¬·¡½º/ÀÎÅÍÆäÀÌ½º ÀÌ¸§À¸·Î ¹Ù·Î Á¢±Ù °¡´É)
+		//#1. í•„ë“œì˜ static íŠ¹ì§• í™•ì¸ (í´ë˜ìŠ¤/ì¸í„°í˜ì´ìŠ¤ ì´ë¦„ìœ¼ë¡œ ë°”ë¡œ ì ‘ê·¼ ê°€ëŠ¥)
 		System.out.println(A.a);
 		System.out.println(B.b);
 		
-		//#2. ÇÊµåÀÇ final Æ¯Â¡ È®ÀÎ (°ª º¯°æ ºÒ°¡)
-		//A.a=4; //(ºÒ°¡´É)
-		//B.b=4; //(ºÒ°¡´É)
+		//#2. í•„ë“œì˜ final íŠ¹ì§• í™•ì¸ (ê°’ ë³€ê²½ ë¶ˆê°€)
+		//A.a=4; //(ë¶ˆê°€ëŠ¥)
+		//B.b=4; //(ë¶ˆê°€ëŠ¥)
 				
 	}
 }

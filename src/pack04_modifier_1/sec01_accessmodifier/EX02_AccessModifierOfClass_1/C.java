@@ -1,8 +1,8 @@
-package pack04_modifier_1.sec01_accessmodifier.EX02_AccessModifierOfClass_1;
+ï»¿package pack04_modifier_1.sec01_accessmodifier.EX02_AccessModifierOfClass_1;
 
-//public Å¬·¡½º
+//public í´ë˜ìŠ¤
 public class C {
 	C(){
-		//package »ı¼ºÀÚ
+		//package ìƒì„±ì
 	}
 }

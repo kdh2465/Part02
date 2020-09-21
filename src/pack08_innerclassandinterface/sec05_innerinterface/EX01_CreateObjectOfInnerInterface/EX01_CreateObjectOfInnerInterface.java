@@ -1,30 +1,30 @@
-package pack08_innerclassandinterface.sec05_innerinterface.EX01_CreateObjectOfInnerInterface;
+ï»¿package pack08_innerclassandinterface.sec05_innerinterface.EX01_CreateObjectOfInnerInterface;
 
-/*ÀÌ³ÊÀÎÅÍÆäÀÌ½ºÀÇ µÎ °¡Áö °´Ã¼ »ı¼º ¹æ¹ı*/
+/*ì´ë„ˆì¸í„°í˜ì´ìŠ¤ì˜ ë‘ ê°€ì§€ ê°ì²´ ìƒì„± ë°©ë²•*/
 
 class A{
 	interface B{
 		public abstract void bcd();
 	}
 }
-//°´Ã¼»ı¼º ¹æ¹ı 1-1. ÀÌ³ÊÀÎÅÍÆäÀÌ½º ±¸Çö Å¬·¡½º »ı¼º
+//ê°ì²´ìƒì„± ë°©ë²• 1-1. ì´ë„ˆì¸í„°í˜ì´ìŠ¤ êµ¬í˜„ í´ë˜ìŠ¤ ìƒì„±
 class C implements A.B{
 	public void bcd() {
-		System.out.println("ÀÌ³ÊÀÎÅÍÆäÀÌ½º ±¸Çö Å¬·¡½º »ı¼º");
+		System.out.println("ì´ë„ˆì¸í„°í˜ì´ìŠ¤ êµ¬í˜„ í´ë˜ìŠ¤ ìƒì„±");
 	};
 }
 
 public class EX01_CreateObjectOfInnerInterface {
 	public static void main(String[] args) {
-		//°´Ã¼ »ı¼º ¹æ¹ı 1-2. ±¸Çö Å¬·¡½º·Î °´Ã¼ »ı¼º
+		//ê°ì²´ ìƒì„± ë°©ë²• 1-2. êµ¬í˜„ í´ë˜ìŠ¤ë¡œ ê°ì²´ ìƒì„±
 		C c = new C();
 		c.bcd();
 		
-		//°´Ã¼ »ı¼º ¹æ¹ı 2. ÀÍ¸íÀÌ³ÊÅ¬·¡½º·Î °´Ã¼ »ı¼º
+		//ê°ì²´ ìƒì„± ë°©ë²• 2. ìµëª…ì´ë„ˆí´ë˜ìŠ¤ë¡œ ê°ì²´ ìƒì„±
 		A.B b = new A.B() {
 			@Override
 			public void bcd() {
-				System.out.println("ÀÍ¸íÀÌ³ÊÅ¬·¡½º·Î °´Ã¼ »ı¼º");				
+				System.out.println("ìµëª…ì´ë„ˆí´ë˜ìŠ¤ë¡œ ê°ì²´ ìƒì„±");				
 			}
 		};
 		b.bcd();		

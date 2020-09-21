@@ -1,16 +1,16 @@
-package pack07_abstractclassandinterface.sec02_interface.EX08_StaticMethod;
+ï»¿package pack07_abstractclassandinterface.sec02_interface.EX08_StaticMethod;
 
-/*ÀÎÅÍÆäÀÌ½º³»ÀÇ Á¤Àû(staic) ¸Ş¼­µå*/
+/*ì¸í„°í˜ì´ìŠ¤ë‚´ì˜ ì •ì (staic) ë©”ì„œë“œ*/
 
 interface A{
 	static void abc() {
-		System.out.println("A ÀÎÅÍÆäÀÌ½ºÀÇ Á¤Àû(static) ¸Ş¼­µå");
+		System.out.println("A ì¸í„°í˜ì´ìŠ¤ì˜ ì •ì (static) ë©”ì„œë“œ");
 	}
 }
 
 public class EX08_StaticMethod {
 	public static void main(String[] args) {
-		//#. ÀÎÅÍÆäÀÌ½º AÀÇ Á¤Àû¸Ş¼­µå È£Ãâ 
-		A.abc(); //A ÀÎÅÍÆäÀÌ½ºÀÇ Á¤Àû(static) ¸Ş¼­µå
+		//#. ì¸í„°í˜ì´ìŠ¤ Aì˜ ì •ì ë©”ì„œë“œ í˜¸ì¶œ 
+		A.abc(); //A ì¸í„°í˜ì´ìŠ¤ì˜ ì •ì (static) ë©”ì„œë“œ
 	}
 }

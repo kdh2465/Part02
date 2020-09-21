@@ -1,4 +1,4 @@
-package pack04_modifier_1.sec01_accessmodifier.EX01_AccessModifierofMember.pack1;
+ï»¿package pack04_modifier_1.sec01_accessmodifier.EX01_AccessModifierofMember.pack1;
 
 public class A {
 	public int a=1;
@@ -6,10 +6,10 @@ public class A {
 	int c=3;
 	private int d=4;
 
-	public void print(){ //a, b, c, d »ç¿ë°¡´É
-	    System.out.println(a); //»ç¿ë°¡´É
-	    System.out.println(b); //»ç¿ë°¡´É 
-	    System.out.println(c); //»ç¿ë°¡´É 
-	    System.out.println(d); //»ç¿ë°¡´É 
+	public void print(){ //a, b, c, d ì‚¬ìš©ê°€ëŠ¥
+	    System.out.println(a); //ì‚¬ìš©ê°€ëŠ¥
+	    System.out.println(b); //ì‚¬ìš©ê°€ëŠ¥ 
+	    System.out.println(c); //ì‚¬ìš©ê°€ëŠ¥ 
+	    System.out.println(d); //ì‚¬ìš©ê°€ëŠ¥ 
 	}
 }

@@ -1,26 +1,26 @@
-package pack02_internalcomponents.sec03_constructor.EX02_ConstructorOverloading;
+ï»¿package pack02_internalcomponents.sec03_constructor.EX02_ConstructorOverloading;
 
-/*´Ù¾çÇÑ »ı¼ºÀÚ¸¦ »ç¿ëÇÑ ´Ù¾çÇÑ °´Ã¼ »ı¼º ¹æ¹ı*/
+/*ë‹¤ì–‘í•œ ìƒì„±ìë¥¼ ì‚¬ìš©í•œ ë‹¤ì–‘í•œ ê°ì²´ ìƒì„± ë°©ë²•*/
 
 class A {
 	A() {
-		System.out.println("Ã¹¹øÂ° »ı¼ºÀÚ");
+		System.out.println("ì²«ë²ˆì§¸ ìƒì„±ì");
 	}
 	A(int a) {
-		System.out.println("µÎ¹øÂ° »ı¼ºÀÚ");
+		System.out.println("ë‘ë²ˆì§¸ ìƒì„±ì");
 	}
 	A(int a, int b) {
-		System.out.println("¼¼¹øÂ° »ı¼ºÀÚ");
+		System.out.println("ì„¸ë²ˆì§¸ ìƒì„±ì");
 	}
 }
 
 public class EX02_ConstructorOverloading {
 	public static void main(String[] args) {
 	
-		//#1. ¼¼ °¡Áö »ı¼ºÀÚ¸¦ ÀÌ¿ëÇÑ ¼¼°¡Áö °´Ã¼ »ı¼º ¹æ¹ı
-		A a1 = new A(); 	//Ã¹¹øÂ° »ı¼ºÀÚ
-		A a2 = new A(3); 	//µÎ¹øÂ° »ı¼ºÀÚ
-		A a3 = new A(3,5); 	//µÎ¹øÂ° »ı¼ºÀÚ
+		//#1. ì„¸ ê°€ì§€ ìƒì„±ìë¥¼ ì´ìš©í•œ ì„¸ê°€ì§€ ê°ì²´ ìƒì„± ë°©ë²•
+		A a1 = new A(); 	//ì²«ë²ˆì§¸ ìƒì„±ì
+		A a2 = new A(3); 	//ë‘ë²ˆì§¸ ìƒì„±ì
+		A a3 = new A(3,5); 	//ë‘ë²ˆì§¸ ìƒì„±ì
 
 	}
 }

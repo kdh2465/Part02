@@ -1,6 +1,6 @@
-package pack05_inheritanceandpolymorphism.sec01_inheritancepolymorphism.EX02_Polymorphism;
+ï»¿package pack05_inheritanceandpolymorphism.sec01_inheritancepolymorphism.EX02_Polymorphism;
 
-/*»ó¼ÓÀ» ÅëÇÑ °´Ã¼ÀÇ ´ÙÇüÀû Ç¥Çö*/
+/*ìƒì†ì„ í†µí•œ ê°ì²´ì˜ ë‹¤í˜•ì  í‘œí˜„*/
 
 class A{ }
 class B extends A{ }
@@ -10,25 +10,25 @@ class D extends B{ }
 public class EX02_Polymorphism {
 	public static void main(String[] args) {
 		
-		//# ´ÙÇüÀû Ç¥Çö
+		//# ë‹¤í˜•ì  í‘œí˜„
 		A aa = new A();
 		A ab = new B();
 		A ac = new C();
 		A ad = new D();
 		
-		//B ba = new A(); //¿À·ù
+		//B ba = new A(); //ì˜¤ë¥˜
 		B bb = new B();
 		B bc = new C();
 		B bd = new D();
 				
-		//C ca = new A(); //¿À·ù
-		//C cb = new B(); //¿À·ù
+		//C ca = new A(); //ì˜¤ë¥˜
+		//C cb = new B(); //ì˜¤ë¥˜
 		C cc = new C();
-		//C cd = new D();	//¿À·ù
+		//C cd = new D();	//ì˜¤ë¥˜
 		
-		//D da = new A(); //¿À·ù
-		//D db = new B(); //¿À·ù
-		//D dc = new C(); //¿À·ù
+		//D da = new A(); //ì˜¤ë¥˜
+		//D db = new B(); //ì˜¤ë¥˜
+		//D dc = new C(); //ì˜¤ë¥˜
 		D dd = new D();				
 		
 	}

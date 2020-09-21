@@ -1,6 +1,6 @@
-package pack06_modifier_2.sec01_finalmodifier.EX01_finalmodifier_1;
+ï»¿package pack06_modifier_2.sec01_finalmodifier.EX01_finalmodifier_1;
 
-/*final ÇÊµå¿Í final Áö¿ªº¯¼öÀÇ Æ¯Â¡ */
+/*final í•„ë“œì™€ final ì§€ì—­ë³€ìˆ˜ì˜ íŠ¹ì§• */
 
 class A1 {	
 	int a = 3; 
@@ -24,7 +24,7 @@ class A3 {
 	final int b = 5;
 	A3(){
 		a=5;
-		//b=7; //(ºÒ°¡´É)
+		//b=7; //(ë¶ˆê°€ëŠ¥)
 	}
 }
 
@@ -33,7 +33,7 @@ class B {
 		int a=3;
 		final int b=5;
 		a=7;
-		//b=9; //(ºÒ°¡´É)
+		//b=9; //(ë¶ˆê°€ëŠ¥)
 	}
 }
 
@@ -42,11 +42,11 @@ public class EX01_finalmodifier_1 {
 		
 		A1 a1 = new A1();
 		a1.a = 7;
-		//a1.b = 9; //(ºÒ°¡´É)
+		//a1.b = 9; //(ë¶ˆê°€ëŠ¥)
 		
 		A2 a2 = new A2();
 		a2.a = 7;
-		//a2.b = 9; //(ºÒ°¡´É)
+		//a2.b = 9; //(ë¶ˆê°€ëŠ¥)
 		
 	}
 }

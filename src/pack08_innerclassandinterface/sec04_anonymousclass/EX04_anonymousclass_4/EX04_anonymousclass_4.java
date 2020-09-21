@@ -1,6 +1,6 @@
-package pack08_innerclassandinterface.sec04_anonymousclass.EX04_anonymousclass_4;
+ï»¿package pack08_innerclassandinterface.sec04_anonymousclass.EX04_anonymousclass_4;
 
-/*Å¬·¡½º ¹ÌÁ¤ÀÇ ¹× ÂüÁ¶º¯¼ö¸íÀ» »ç¿ë/¹Ì»ç¿ëÀÇ °æ¿ì ¸Å°³º¯¼ö °´Ã¼ Àü´Ş*/
+/*í´ë˜ìŠ¤ ë¯¸ì •ì˜ ë° ì°¸ì¡°ë³€ìˆ˜ëª…ì„ ì‚¬ìš©/ë¯¸ì‚¬ìš©ì˜ ê²½ìš° ë§¤ê°œë³€ìˆ˜ ê°ì²´ ì „ë‹¬*/
 
 interface A {
 	public abstract void abc();
@@ -8,7 +8,7 @@ interface A {
 
 class B implements A {
 	public void abc(){
-		System.out.println("¸Å°³º¯¼ö Àü´Ş");
+		System.out.println("ë§¤ê°œë³€ìˆ˜ ì „ë‹¬");
 	}
 }
 
@@ -23,18 +23,18 @@ public class EX04_anonymousclass_4 {
 		
 		C c = new C();
 		
-		//#1. ¹æ¹ı 3. Å¬·¡½º¸í X + ÂüÁ¶º¯¼ö¸í O		
+		//#1. ë°©ë²• 3. í´ë˜ìŠ¤ëª… X + ì°¸ì¡°ë³€ìˆ˜ëª… O		
 		A a = new A() {
 			public void abc() {
-				System.out.println("¸Å°³º¯¼ö Àü´Ş");
+				System.out.println("ë§¤ê°œë³€ìˆ˜ ì „ë‹¬");
 			};
 		};
 		c.cde(a);
 		
-		//#2. ¹æ¹ı 4. Å¬·¡½º¸í X + ÂüÁ¶º¯¼ö¸í X
+		//#2. ë°©ë²• 4. í´ë˜ìŠ¤ëª… X + ì°¸ì¡°ë³€ìˆ˜ëª… X
 		c.cde(new A() {
 			public void abc() {
-				System.out.println("¸Å°³º¯¼ö Àü´Ş");
+				System.out.println("ë§¤ê°œë³€ìˆ˜ ì „ë‹¬");
 			};
 		});
 		

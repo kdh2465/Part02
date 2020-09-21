@@ -1,8 +1,8 @@
-package pack02_internalcomponents.sec02_method.EX05_effectOfReferenceDataArgument;
+ï»¿package pack02_internalcomponents.sec02_method.EX05_effectOfReferenceDataArgument;
 
 import java.util.Arrays;
 
-/*ÂüÁ¶ÀÚ·áÇü ¸Å°³°³º¯¼ö °ªÀÇ º¯È­*/
+/*ì°¸ì¡°ìë£Œí˜• ë§¤ê°œê°œë³€ìˆ˜ ê°’ì˜ ë³€í™”*/
 
 public class EX05_effectOfReferenceDataArgument {
 	public static void main(String[] args) {

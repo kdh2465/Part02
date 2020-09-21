@@ -1,6 +1,6 @@
-package pack08_innerclassandinterface.sec03_localclass.EX01_AccessMemberAndLocalVariable;
+ï»¿package pack08_innerclassandinterface.sec03_localclass.EX01_AccessMemberAndLocalVariable;
 
-/*Áö¿ªÀÌ³ÊÅ¬·¡½º ³»ºÎ¿¡¼­ ¿ÜºÎ ¸â¹ö ¹× ¸Ş¼­µå Áö¿ªº¯¼ö È°¿ë*/
+/*ì§€ì—­ì´ë„ˆí´ë˜ìŠ¤ ë‚´ë¶€ì—ì„œ ì™¸ë¶€ ë©¤ë²„ ë° ë©”ì„œë“œ ì§€ì—­ë³€ìˆ˜ í™œìš©*/
 
 class A{
 	int a=3;
@@ -9,10 +9,10 @@ class A{
 		
 		class B{
 			void bcd() {				
-				System.out.println(a); //ÇÊµå (O)
-				System.out.println(b); //Áö¿ªº¯¼ö (O)
+				System.out.println(a); //í•„ë“œ (O)
+				System.out.println(b); //ì§€ì—­ë³€ìˆ˜ (O)
 				a=7;
-				//b=7; //(ºÒ°¡´É)
+				//b=7; //(ë¶ˆê°€ëŠ¥)
 			}
 		}
 		B bb = new B();

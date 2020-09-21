@@ -1,25 +1,25 @@
-package pack07_abstractclassandinterface.sec02_interface.EX07_DefaultMethod_2;
+ï»¿package pack07_abstractclassandinterface.sec02_interface.EX07_DefaultMethod_2;
 
-/*ÀÚ½ÄÅ¬·¡½º¿¡¼­ ºÎ¸ðÀÎÅÍÆäÀÌ½ºÀÇ µðÆúÆ®¸Þ¼­µå È£Ãâ*/
+/*ìžì‹í´ëž˜ìŠ¤ì—ì„œ ë¶€ëª¨ì¸í„°íŽ˜ì´ìŠ¤ì˜ ë””í´íŠ¸ë©”ì„œë“œ í˜¸ì¶œ*/
 
 interface A {
 	default void abc(){
-		System.out.println("A ÀÎÅÍÆäÀÌ½ºÀÇ abc()");
+		System.out.println("A ì¸í„°íŽ˜ì´ìŠ¤ì˜ abc()");
 	}
 }
-//#1. ÀÚ½ÄÅ¬·¡½º¿¡¼­ ºÎ¸ð ÀÎÅÍÆäÀÌ½º µðÆúÆ® ¸Þ¼­µå È£Ãâ
+//#1. ìžì‹í´ëž˜ìŠ¤ì—ì„œ ë¶€ëª¨ ì¸í„°íŽ˜ì´ìŠ¤ ë””í´íŠ¸ ë©”ì„œë“œ í˜¸ì¶œ
 class B implements A{
 	@Override
 	public void abc() {
 		A.super.abc();
-		System.out.println("B Å¬·¡½ºÀÇ abc()");
+		System.out.println("B í´ëž˜ìŠ¤ì˜ abc()");
 	}	
 }
 
 public class EX07_DefaultMethod_2 {
 	public static void main(String[] args) {
-		//#1. B °´Ã¼ »ý¼º ¹× ¸Þ¼­µå È£Ãâ
+		//#1. B ê°ì²´ ìƒì„± ë° ë©”ì„œë“œ í˜¸ì¶œ
 		B b = new B();
-		b.abc();	//A ÀÎÅÍÆäÀÌ½ºÀÇ abc() -> B Å¬·¡½ºÀÇ abc()				
+		b.abc();	//A ì¸í„°íŽ˜ì´ìŠ¤ì˜ abc() -> B í´ëž˜ìŠ¤ì˜ abc()				
 	}
 }

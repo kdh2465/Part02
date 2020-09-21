@@ -1,6 +1,6 @@
-package pack08_innerclassandinterface.sec03_localclass.EX02_GeneratedClassNames;
+ï»¿package pack08_innerclassandinterface.sec03_localclass.EX02_GeneratedClassNames;
 
-/*Áö¿ªÀÌ³ÊÅ¬·¡½ºÀÇ ÄÄÆÄÀÏ ÀÌÈÄ »ı¼º Å¬·¡½º ÆÄÀÏ*/
+/*ì§€ì—­ì´ë„ˆí´ë˜ìŠ¤ì˜ ì»´íŒŒì¼ ì´í›„ ìƒì„± í´ë˜ìŠ¤ íŒŒì¼*/
 
 class A{	
 	void abc() {

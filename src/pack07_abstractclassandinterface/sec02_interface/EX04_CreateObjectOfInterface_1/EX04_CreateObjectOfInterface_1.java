@@ -1,23 +1,23 @@
-package pack07_abstractclassandinterface.sec02_interface.EX04_CreateObjectOfInterface_1;
+ï»¿package pack07_abstractclassandinterface.sec02_interface.EX04_CreateObjectOfInterface_1;
 
-/*ÀÚ½ÄÅ¬·¡½ºÀÇ Á÷Á¢ Á¤ÀÇ¸¦ ÅëÇÑ ÀÎÅÍÆäÀÌ½ºÅ¸ÀÔÀÇ °´Ã¼ »ı¼º (¹æ¹ı#1)*/
+/*ìì‹í´ë˜ìŠ¤ì˜ ì§ì ‘ ì •ì˜ë¥¼ í†µí•œ ì¸í„°í˜ì´ìŠ¤íƒ€ì…ì˜ ê°ì²´ ìƒì„± (ë°©ë²•#1)*/
 
 interface A {
 	int a = 3;
 	void abc() ;
 }
 
-//#1-1. ÀÎÅÍÆäÀÌ½º¸¦ »ó¼ÓÇÑ ÀÚ½ÄÅ¬·¡½º »ı¼º
+//#1-1. ì¸í„°í˜ì´ìŠ¤ë¥¼ ìƒì†í•œ ìì‹í´ë˜ìŠ¤ ìƒì„±
 class B implements A {
 	@Override
 	public void abc() {
-		System.out.println("¹æ¹ı#1. Ãß»ó¸Ş¼­µå ±¸Çö (¹Ì¿Ï¼º-> ¿Ï¼º)");		
+		System.out.println("ë°©ë²•#1. ì¶”ìƒë©”ì„œë“œ êµ¬í˜„ (ë¯¸ì™„ì„±-> ì™„ì„±)");		
 	}
 }
 
 public class EX04_CreateObjectOfInterface_1 {
 	public static void main(String[] args) {
-		//#1-2. »ó¼ÓÇÑ ÀÏ¹İÅ¬·¡½º¸¦ ÀÌ¿ëÇÏ¿© °´Ã¼ »ı¼º
+		//#1-2. ìƒì†í•œ ì¼ë°˜í´ë˜ìŠ¤ë¥¼ ì´ìš©í•˜ì—¬ ê°ì²´ ìƒì„±
 		B b1 = new B();
 		b1.abc();
 		

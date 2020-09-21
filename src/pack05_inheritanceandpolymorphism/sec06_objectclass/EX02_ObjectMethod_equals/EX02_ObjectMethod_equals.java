@@ -1,6 +1,6 @@
-package pack05_inheritanceandpolymorphism.sec06_objectclass.EX02_ObjectMethod_equals;
+ï»¿package pack05_inheritanceandpolymorphism.sec06_objectclass.EX02_ObjectMethod_equals;
 
-/*Object Å¬·¡½ºÀÇ equals(.) ¸Ş¼­µå*/
+/*Object í´ë˜ìŠ¤ì˜ equals(.) ë©”ì„œë“œ*/
 
 class A {
 	String name;
@@ -9,7 +9,7 @@ class A {
 	}
 }
 
-class B { //equals() ¸Ş¼­µå overriding
+class B { //equals() ë©”ì„œë“œ overriding
 	String name;
 	B(String name) {
 		this.name=name;		
@@ -27,14 +27,14 @@ class B { //equals() ¸Ş¼­µå overriding
 public class EX02_ObjectMethod_equals {
 	public static void main(String[] args) {
 		
-		A aa1 = new A("¾È³ç");
-		A aa2 = new A("¾È³ç");
+		A aa1 = new A("ì•ˆë…•");
+		A aa2 = new A("ì•ˆë…•");
 		
 		System.out.println(aa1==aa2);		//false
 		System.out.println(aa1.equals(aa2));//false
 		
-		B bb1 = new B("¾È³ç");
-		B bb2 = new B("¾È³ç");
+		B bb1 = new B("ì•ˆë…•");
+		B bb2 = new B("ì•ˆë…•");
 		
 		System.out.println(bb1==bb2);		//false
 		System.out.println(bb1.equals(bb2));//true

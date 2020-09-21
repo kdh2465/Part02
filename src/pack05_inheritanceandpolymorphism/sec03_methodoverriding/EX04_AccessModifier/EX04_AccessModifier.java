@@ -1,6 +1,6 @@
-package pack05_inheritanceandpolymorphism.sec03_methodoverriding.EX04_AccessModifier;
+ï»¿package pack05_inheritanceandpolymorphism.sec03_methodoverriding.EX04_AccessModifier;
 
-/*¸Ş¼­µå ¿À¹ö¶óÀÌµù°ú Á¢±ÙÁöÁ¤ÀÚ*/
+/*ë©”ì„œë“œ ì˜¤ë²„ë¼ì´ë”©ê³¼ ì ‘ê·¼ì§€ì •ì*/
 
 class A{
 	protected void abc() {};	
@@ -13,10 +13,10 @@ class B2 extends A{
 	protected void abc() {};	
 }
 class B3 extends A{
-	//void abc() {}; //(ºÒ°¡´É)
+	//void abc() {}; //(ë¶ˆê°€ëŠ¥)
 }
 class B4 extends A{
-	//private void abc() {}; //(ºÒ°¡´É)	
+	//private void abc() {}; //(ë¶ˆê°€ëŠ¥)	
 }
 
 public class EX04_AccessModifier {

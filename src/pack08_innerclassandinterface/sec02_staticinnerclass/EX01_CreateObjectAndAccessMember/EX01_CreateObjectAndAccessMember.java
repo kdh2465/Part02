@@ -1,6 +1,6 @@
-package pack08_innerclassandinterface.sec02_staticinnerclass.EX01_CreateObjectAndAccessMember;
+ï»¿package pack08_innerclassandinterface.sec02_staticinnerclass.EX01_CreateObjectAndAccessMember;
 
-/*Á¤ÀûÀÌ³ÊÅ¬·¡½º¿¡¼­ÀÇ ¿ÜºÎ¸â¹ö »ç¿ë ¹× °´Ã¼ »ı¼º*/
+/*ì •ì ì´ë„ˆí´ë˜ìŠ¤ì—ì„œì˜ ì™¸ë¶€ë©¤ë²„ ì‚¬ìš© ë° ê°ì²´ ìƒì„±*/
 
 class A{
 	int a=3;
@@ -14,11 +14,11 @@ class A{
 	
 	static class B{
 		void bcd() {
-			//#1. outer Å¬·¡½º ÇÊµå Á¢±Ù 
-			//System.out.println(a); //(ºÒ°¡´É)
+			//#1. outer í´ë˜ìŠ¤ í•„ë“œ ì ‘ê·¼ 
+			//System.out.println(a); //(ë¶ˆê°€ëŠ¥)
 			System.out.println(b);
-			//#2. outer Å¬·¡½º ¸Ş¼­µå Á¢±Ù
-			//method1(); //(ºÒ°¡´É)
+			//#2. outer í´ë˜ìŠ¤ ë©”ì„œë“œ ì ‘ê·¼
+			//method1(); //(ë¶ˆê°€ëŠ¥)
 			method2();			
 		}
 	}
@@ -26,7 +26,7 @@ class A{
 public class EX01_CreateObjectAndAccessMember {
 	public static void main(String[] args) {
 		
-		//#3. static inner class °´Ã¼»ı¼º
+		//#3. static inner class ê°ì²´ìƒì„±
 		A.B b = new A.B();
 		b.bcd();		
 		

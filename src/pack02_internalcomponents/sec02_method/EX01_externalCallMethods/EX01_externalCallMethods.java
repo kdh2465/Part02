@@ -1,49 +1,49 @@
-package pack02_internalcomponents.sec02_method.EX01_externalCallMethods;
+ï»¿package pack02_internalcomponents.sec02_method.EX01_externalCallMethods;
 
-/*Å¬·¡½º ¿ÜºÎ¿¡¼­ÀÇ ¸Ş¼­µå È£Ãâ*/
+/*í´ë˜ìŠ¤ ì™¸ë¶€ì—ì„œì˜ ë©”ì„œë“œ í˜¸ì¶œ*/
 
 class A {
-	//#. ¸®ÅÏÅ¸ÀÔ:void + ¸Å°³º¯¼ö: ¾øÀ½
+	//#. ë¦¬í„´íƒ€ì…:void + ë§¤ê°œë³€ìˆ˜: ì—†ìŒ
 	void print() {
-		System.out.println("¾È³ç");
+		System.out.println("ì•ˆë…•");
 	}
 	
-	//#. ¸®ÅÏÅ¸ÀÔ: int + ¸Å°³º¯¼ö: ¾øÀ½
+	//#. ë¦¬í„´íƒ€ì…: int + ë§¤ê°œë³€ìˆ˜: ì—†ìŒ
 	int data() {
 		return 3;
 	}
 	
-	//#. ¸®ÅÏÅ¸ÀÔ: double + ¸Å°³º¯¼ö: 2°³
+	//#. ë¦¬í„´íƒ€ì…: double + ë§¤ê°œë³€ìˆ˜: 2ê°œ
 	double sum (int a, double b) {
 		return a+b;
 	}
 	
-	//#. ¸®ÅÏÅ¸ÀÔ: void + ¸Å°³º¯¼ö : 1°³ + ³»ºÎ ÇÔ¼öÁ¾·á(return Æ÷ÇÔ)
+	//#. ë¦¬í„´íƒ€ì…: void + ë§¤ê°œë³€ìˆ˜ : 1ê°œ + ë‚´ë¶€ í•¨ìˆ˜ì¢…ë£Œ(return í¬í•¨)
 	void printMonth(int m) {
 		if(m<0 || m>12) {
-			System.out.println("Àß¸øµÈ ÀÔ·Â!");
+			System.out.println("ì˜ëª»ëœ ì…ë ¥!");
 			return;
 		}
-		System.out.println(m+"¿ù ÀÔ´Ï´Ù.");			
+		System.out.println(m+"ì›” ì…ë‹ˆë‹¤.");			
 	}	
 }
 
 public class EX01_externalCallMethods {
 	public static void main(String[] args) {
 	
-		//¸Ş¼­µåÀÇ ¿ÜºÎ È£Ãâ(´Ù¸¥ Å¬·¡½ºÀÇ ¸Ş¼­µå È£Ãâ) 1. °´Ã¼ »ı¼º  2.ÂüÁ¶º¯¼ö·ÎºÎÅÍ ¸Ş¼­µå È£Ãâ
-		//#1. °´Ã¼ »ı¼º
+		//ë©”ì„œë“œì˜ ì™¸ë¶€ í˜¸ì¶œ(ë‹¤ë¥¸ í´ë˜ìŠ¤ì˜ ë©”ì„œë“œ í˜¸ì¶œ) 1. ê°ì²´ ìƒì„±  2.ì°¸ì¡°ë³€ìˆ˜ë¡œë¶€í„° ë©”ì„œë“œ í˜¸ì¶œ
+		//#1. ê°ì²´ ìƒì„±
 		A a = new A();
 		
-		//#2. ¸Ş¼­µå ¿ÜºÎ È£Ãâ (ÂüÁ¶º¯¼ö·ÎºÎÅÍ ¸Ş¼­µå È£Ãâ)
-		a.print(); 				//"¾È³ç"
+		//#2. ë©”ì„œë“œ ì™¸ë¶€ í˜¸ì¶œ (ì°¸ì¡°ë³€ìˆ˜ë¡œë¶€í„° ë©”ì„œë“œ í˜¸ì¶œ)
+		a.print(); 				//"ì•ˆë…•"
 		int k = a.data();
 		System.out.println(k);	//3
 		
 		double result = a.sum(3, 5.2);
 		System.out.println(result);	//8.2
 		
-		a.printMonth(5); 	//5¿ù ÀÔ´Ï´Ù.
-		a.printMonth(15);	//Àß¸øµÈ ÀÔ·Â		
+		a.printMonth(5); 	//5ì›” ì…ë‹ˆë‹¤.
+		a.printMonth(15);	//ì˜ëª»ëœ ì…ë ¥		
 	}
 }

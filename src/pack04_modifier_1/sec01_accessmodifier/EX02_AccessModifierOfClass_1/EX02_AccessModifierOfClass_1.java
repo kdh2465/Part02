@@ -1,13 +1,13 @@
-package pack04_modifier_1.sec01_accessmodifier.EX02_AccessModifierOfClass_1;
+ï»¿package pack04_modifier_1.sec01_accessmodifier.EX02_AccessModifierOfClass_1;
 
-/*°°Àº ÆĞÅ°Áö¿¡¼­ÀÇ Å¬·¡½º Á¢±ÙÁöÁ¤ÀÚ vs. »ı¼ºÀÚ Á¢±ÙÁöÁ¤ÀÚ*/
+/*ê°™ì€ íŒ¨í‚¤ì§€ì—ì„œì˜ í´ë˜ìŠ¤ ì ‘ê·¼ì§€ì •ì vs. ìƒì„±ì ì ‘ê·¼ì§€ì •ì*/
 
 public class EX02_AccessModifierOfClass_1 {
 	public static void main(String[] args) {
 		
-		A a = new A(); //°´Ã¼ »ı¼º °¡´É = »ı¼ºÀÚ È£Ãâ °¡´É
-		B b = new B(); //°´Ã¼ »ı¼º °¡´É = »ı¼ºÀÚ È£Ãâ °¡´É
-		C c = new C(); //°´Ã¼ »ı¼º °¡´É = »ı¼ºÀÚ È£Ãâ °¡´É
+		A a = new A(); //ê°ì²´ ìƒì„± ê°€ëŠ¥ = ìƒì„±ì í˜¸ì¶œ ê°€ëŠ¥
+		B b = new B(); //ê°ì²´ ìƒì„± ê°€ëŠ¥ = ìƒì„±ì í˜¸ì¶œ ê°€ëŠ¥
+		C c = new C(); //ê°ì²´ ìƒì„± ê°€ëŠ¥ = ìƒì„±ì í˜¸ì¶œ ê°€ëŠ¥
 		
 	}
 }

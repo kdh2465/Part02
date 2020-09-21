@@ -1,16 +1,16 @@
-package pack02_internalcomponents.sec02_method.EX03_arrayArgumentMethod;
+ï»¿package pack02_internalcomponents.sec02_method.EX03_arrayArgumentMethod;
 
 import java.util.Arrays;
 
-/*¹è¿­ ¸Å°³º¯¼ö¸¦ °¡Áö´Â ¸Þ¼­µå È£Ãâ*/
+/*ë°°ì—´ ë§¤ê°œë³€ìˆ˜ë¥¼ ê°€ì§€ëŠ” ë©”ì„œë“œ í˜¸ì¶œ*/
 
 public class EX03_arrayArgumentMethod {
 	public static void main(String[] args) {
 	
-		//¹è¿­ ¸Å°³º¯¼ö¸¦ °¡Áö´Â ¸Þ¼­µå È£Ãâ		
+		//ë°°ì—´ ë§¤ê°œë³€ìˆ˜ë¥¼ ê°€ì§€ëŠ” ë©”ì„œë“œ í˜¸ì¶œ		
 		printArray(new int[] {1,2,3}); //[1,2,3]
 		
-		//printArray({1,2,3}); //¿À·ù				
+		//printArray({1,2,3}); //ì˜¤ë¥˜				
 	}
 	
 	public static void printArray(int[] a) {

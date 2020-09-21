@@ -1,11 +1,11 @@
-package pack02_internalcomponents.sec02_method.EX02_internalCallMethods;
+ï»¿package pack02_internalcomponents.sec02_method.EX02_internalCallMethods;
 
-/*Å¬·¡½º ³»ºÎ¿¡¼­ÀÇ ¸Ş¼­µå È£Ãâ*/
+/*í´ë˜ìŠ¤ ë‚´ë¶€ì—ì„œì˜ ë©”ì„œë“œ í˜¸ì¶œ*/
 
 public class EX02_internalCallMethods {
 	public static void main(String[] args) {
 	
-		//¸Ş¼­µåÀÇ ³»ºÎ È£Ãâ 1. ¸Ş¼­µå ÀÌ¸§À¸·Î ¹Ù·Î È£Ãâ¿øÈï¿ª 3È£¼±
+		//ë©”ì„œë“œì˜ ë‚´ë¶€ í˜¸ì¶œ 1. ë©”ì„œë“œ ì´ë¦„ìœ¼ë¡œ ë°”ë¡œ í˜¸ì¶œì›í¥ì—­ 3í˜¸ì„ 
 		print();
 
 		int a = twice(3);
@@ -16,7 +16,7 @@ public class EX02_internalCallMethods {
 	}
 	
 	public static void print(){
-		System.out.println("¾È³ç");
+		System.out.println("ì•ˆë…•");
 	}
 		
 	public static int twice(int k){

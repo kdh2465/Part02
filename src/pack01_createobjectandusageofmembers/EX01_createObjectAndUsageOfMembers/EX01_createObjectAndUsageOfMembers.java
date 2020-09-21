@@ -1,26 +1,26 @@
-package pack01_createobjectandusageofmembers.EX01_createObjectAndUsageOfMembers;
+ï»¿package pack01_createobjectandusageofmembers.EX01_createObjectAndUsageOfMembers;
 
-/*Å¬·¡½º ±¸¼º°ú °´Ã¼ÀÇ »ı¼º ¹× È°¿ë*/
+/*í´ë˜ìŠ¤ êµ¬ì„±ê³¼ ê°ì²´ì˜ ìƒì„± ë° í™œìš©*/
 
-//#1. Å¬·¡½ºÀÇ ±¸¼º
+//#1. í´ë˜ìŠ¤ì˜ êµ¬ì„±
 class A {
 	int m = 3;
 	
 	void print() {
-		System.out.println("°´Ã¼ »ı¼º ¹× È°¿ë");
+		System.out.println("ê°ì²´ ìƒì„± ë° í™œìš©");
 	}	
 }
 
 public class EX01_createObjectAndUsageOfMembers {	
 	public static void main(String[] args) {		
-		//#2. Å¬·¡½º·Î ºÎÅÍ °´Ã¼ÀÇ »ı¼º
+		//#2. í´ë˜ìŠ¤ë¡œ ë¶€í„° ê°ì²´ì˜ ìƒì„±
 		A a = new A();
 				
-		//#3. Å¬·¡½º ¸â¹öÀÇ È°¿ë
-		//@ ÇÊµåÀÇ °ª ÀÔ·Â ¹× Ãâ·Â
+		//#3. í´ë˜ìŠ¤ ë©¤ë²„ì˜ í™œìš©
+		//@ í•„ë“œì˜ ê°’ ì…ë ¥ ë° ì¶œë ¥
 		a.m=5;
 		System.out.println(a.m); //5
-		//@ ¸Ş¼­µåÀÇ È°¿ë (È£Ãâ)
-		a.print(); //°´Ã¼ »ı¼º ¹× È°¿ë
+		//@ ë©”ì„œë“œì˜ í™œìš© (í˜¸ì¶œ)
+		a.print(); //ê°ì²´ ìƒì„± ë° í™œìš©
 	}
 }

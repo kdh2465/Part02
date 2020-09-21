@@ -1,33 +1,33 @@
-package pack05_inheritanceandpolymorphism.sec03_methodoverriding.EX01_MethodOverriding_1;
+ï»¿package pack05_inheritanceandpolymorphism.sec03_methodoverriding.EX01_MethodOverriding_1;
 
-/*¸Ş¼­µå ¿À¹ö¶óÀÌµùÀÇ ±âº» µ¿ÀÛ*/
+/*ë©”ì„œë“œ ì˜¤ë²„ë¼ì´ë”©ì˜ ê¸°ë³¸ ë™ì‘*/
 
 class A {
 	void print() {
-		System.out.println("A Å¬·¡½º");
+		System.out.println("A í´ë˜ìŠ¤");
 	}
 }
 
 class B extends A {
 	void print() {
-		System.out.println("B Å¬·¡½º");
+		System.out.println("B í´ë˜ìŠ¤");
 	}
 }
 
 public class EX01_MethodOverriding_1 {
 	public static void main(String[] args) {
 		
-		//#1. A Å¸ÀÔ ¼±¾ğ A °´Ã¼ »ı¼º
+		//#1. A íƒ€ì… ì„ ì–¸ A ê°ì²´ ìƒì„±
 		A aa = new A();
-		aa.print(); //A Å¬·¡½º
+		aa.print(); //A í´ë˜ìŠ¤
 		
-		//#2. B Å¸ÀÔ ¼±¾ğ B °´Ã¼ »ı¼º
+		//#2. B íƒ€ì… ì„ ì–¸ B ê°ì²´ ìƒì„±
 		B bb = new B();
-		bb.print(); //B Å¬·¡½º
+		bb.print(); //B í´ë˜ìŠ¤
 		
-		//#3. A Å¸ÀÔ ¼±¾ğ B °´Ã¼ »ı¼º (´ÙÇüÀû Ç¥Çö)
+		//#3. A íƒ€ì… ì„ ì–¸ B ê°ì²´ ìƒì„± (ë‹¤í˜•ì  í‘œí˜„)
 		A ab = new B();
-		ab.print(); //B Å¬·¡½º
+		ab.print(); //B í´ë˜ìŠ¤
 			
 	}
 

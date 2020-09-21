@@ -1,6 +1,6 @@
-package pack03_externalcomponents.sec01_packageimport.EX01_PackageImport_1;
+ï»¿package pack03_externalcomponents.sec01_packageimport.EX01_PackageImport_1;
 
-/*¿ÜºÎÆĞÅ°ÁöÀÇ Å¬·¡½º »ç¿ë¹æ¹ı #1 (Å¬·¡½ºÀÇ Ç®³×ÀÓ »ç¿ë)*/
+/*ì™¸ë¶€íŒ¨í‚¤ì§€ì˜ í´ë˜ìŠ¤ ì‚¬ìš©ë°©ë²• #1 (í´ë˜ìŠ¤ì˜ í’€ë„¤ì„ ì‚¬ìš©)*/
 
 public class EX01_PackageImport_1 {
 	public static void main(String[] args) {

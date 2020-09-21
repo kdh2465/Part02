@@ -1,10 +1,10 @@
-package pack04_modifier_1.sec01_accessmodifier.EX01_AccessModifierofMember;
+ï»¿package pack04_modifier_1.sec01_accessmodifier.EX01_AccessModifierofMember;
 import pack04_modifier_1.sec01_accessmodifier.EX01_AccessModifierofMember.pack1.A;
 import pack04_modifier_1.sec01_accessmodifier.EX01_AccessModifierofMember.pack1.B;
 import pack04_modifier_1.sec01_accessmodifier.EX01_AccessModifierofMember.pack2.C;
 import pack04_modifier_1.sec01_accessmodifier.EX01_AccessModifierofMember.pack2.D;
 
-/*¸â¹ö ¹× »ı¼ºÀÚ¿¡ Àû¿ëµÇ´Â ³× °¡Áö Á¢±Ù ÁöÁ¤ÀÚ*/
+/*ë©¤ë²„ ë° ìƒì„±ìì— ì ìš©ë˜ëŠ” ë„¤ ê°€ì§€ ì ‘ê·¼ ì§€ì •ì*/
 
 public class EX01_AccessModifierofMember {
 	public static void main(String[] args) {

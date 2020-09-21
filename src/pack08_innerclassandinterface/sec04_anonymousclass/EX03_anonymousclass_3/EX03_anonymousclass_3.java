@@ -1,6 +1,6 @@
-package pack08_innerclassandinterface.sec04_anonymousclass.EX03_anonymousclass_3;
+ï»¿package pack08_innerclassandinterface.sec04_anonymousclass.EX03_anonymousclass_3;
 
-/*Å¬·¡½º Á¤ÀÇ ¹× ÂüÁ¶º¯¼ö¸íÀ» »ç¿ë/¹Ì»ç¿ëÀÇ °æ¿ì ¸Å°³º¯¼ö °´Ã¼ Àü´Ş*/
+/*í´ë˜ìŠ¤ ì •ì˜ ë° ì°¸ì¡°ë³€ìˆ˜ëª…ì„ ì‚¬ìš©/ë¯¸ì‚¬ìš©ì˜ ê²½ìš° ë§¤ê°œë³€ìˆ˜ ê°ì²´ ì „ë‹¬*/
 
 interface A {
 	public abstract void abc();
@@ -8,7 +8,7 @@ interface A {
 
 class B implements A {
 	public void abc(){
-		System.out.println("¸Å°³º¯¼ö Àü´Ş");
+		System.out.println("ë§¤ê°œë³€ìˆ˜ ì „ë‹¬");
 	}
 }
 
@@ -23,11 +23,11 @@ public class EX03_anonymousclass_3 {
 		
 		C c = new C();
 		
-		//#1. ¹æ¹ı 1. Å¬·¡½º¸í O + ÂüÁ¶º¯¼ö¸í O
+		//#1. ë°©ë²• 1. í´ë˜ìŠ¤ëª… O + ì°¸ì¡°ë³€ìˆ˜ëª… O
 		A a = new B();
 		c.cde(a);
 		
-		//#2. ¹æ¹ı 2. Å¬·¡½º¸í O + ÂüÁ¶º¯¼ö¸í X
+		//#2. ë°©ë²• 2. í´ë˜ìŠ¤ëª… O + ì°¸ì¡°ë³€ìˆ˜ëª… X
 		c.cde(new B());
 				
 	}

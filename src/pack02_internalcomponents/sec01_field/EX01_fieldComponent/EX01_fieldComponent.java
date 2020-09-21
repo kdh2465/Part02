@@ -1,19 +1,19 @@
-package pack02_internalcomponents.sec01_field.EX01_fieldComponent;
+ï»¿package pack02_internalcomponents.sec01_field.EX01_fieldComponent;
 
-/*Å¬·¡½º ¿ÜºÎ¿¡¼­ ÂüÁ¶º¯¼ö¸¦ »ç¿ëÇÑ ÇÊµå¿Í ¸Ş¼­µå È£Ãâ*/
+/*í´ë˜ìŠ¤ ì™¸ë¶€ì—ì„œ ì°¸ì¡°ë³€ìˆ˜ë¥¼ ì‚¬ìš©í•œ í•„ë“œì™€ ë©”ì„œë“œ í˜¸ì¶œ*/
 
-//#1. Å¬·¡½º »ı¼º
+//#1. í´ë˜ìŠ¤ ìƒì„±
 class A {
-	int m=3; // ÇÊµå
-	int n=4; // ÇÊµå
+	int m=3; // í•„ë“œ
+	int n=4; // í•„ë“œ
 	
 	void work1() {
-		int k=5; //Áö¿ªº¯¼ö
+		int k=5; //ì§€ì—­ë³€ìˆ˜
 		System.out.println(k);
-		work2(3); //È£Ãâ½Ã Áö¿ªº¯¼ö i »ı¼º / ¸Ş¼­µå Á¾·á ÈÄ »èÁ¦
+		work2(3); //í˜¸ì¶œì‹œ ì§€ì—­ë³€ìˆ˜ i ìƒì„± / ë©”ì„œë“œ ì¢…ë£Œ í›„ ì‚­ì œ
 	}
-	void work2(int i) { //Áö¿ªº¯¼ö
-		int j=4; //Áö¿ªº¯¼ö
+	void work2(int i) { //ì§€ì—­ë³€ìˆ˜
+		int j=4; //ì§€ì—­ë³€ìˆ˜
 		System.out.println(i+j);
 	}
 }
@@ -22,15 +22,15 @@ public class EX01_fieldComponent {
 	
 	public static void main(String[] args) {
 		
-		//#2. Å¬·¡½º¸¦ È°¿ëÇÏ¿© °´Ã¼ »ı¼º
+		//#2. í´ë˜ìŠ¤ë¥¼ í™œìš©í•˜ì—¬ ê°ì²´ ìƒì„±
 		A a = new A();
 		
-		//#3. ÇÊµå°ª Ãâ·Â
-		System.out.println("ÇÊµå m = "+a.m); //3
-		System.out.println("ÇÊµå n = "+a.n); //4
+		//#3. í•„ë“œê°’ ì¶œë ¥
+		System.out.println("í•„ë“œ m = "+a.m); //3
+		System.out.println("í•„ë“œ n = "+a.n); //4
 		
-		//#4. ¸Ş¼­µå È£Ãâ
-		a.work1(); //È£Ãâ½Ã Áö¿ªº¯¼ö k »ı¼º / ¸Ş¼­µå Á¾·á ÈÄ »èÁ¦		
+		//#4. ë©”ì„œë“œ í˜¸ì¶œ
+		a.work1(); //í˜¸ì¶œì‹œ ì§€ì—­ë³€ìˆ˜ k ìƒì„± / ë©”ì„œë“œ ì¢…ë£Œ í›„ ì‚­ì œ		
 	}
 	
 }

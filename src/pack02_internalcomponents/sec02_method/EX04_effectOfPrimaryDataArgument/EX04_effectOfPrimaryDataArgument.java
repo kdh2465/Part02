@@ -1,6 +1,6 @@
-package pack02_internalcomponents.sec02_method.EX04_effectOfPrimaryDataArgument;
+ï»¿package pack02_internalcomponents.sec02_method.EX04_effectOfPrimaryDataArgument;
 
-/*±âº»ÀÚ·áÇü ¸Å°³°³º¯¼ö °ªÀÇ º¯È­*/
+/*ê¸°ë³¸ìë£Œí˜• ë§¤ê°œê°œë³€ìˆ˜ ê°’ì˜ ë³€í™”*/
 
 public class EX04_effectOfPrimaryDataArgument {
 	public static void main(String[] args) {

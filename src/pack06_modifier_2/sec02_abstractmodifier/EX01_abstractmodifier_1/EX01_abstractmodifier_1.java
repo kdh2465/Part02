@@ -1,6 +1,6 @@
-package pack06_modifier_2.sec02_abstractmodifier.EX01_abstractmodifier_1;
+ï»¿package pack06_modifier_2.sec02_abstractmodifier.EX01_abstractmodifier_1;
 
-/*ÀÏ¹İÅ¬·¡½º¸¦ »ó¼ÓÇÏ¿© ¿À¹ö¶óÀÌµù ¼öÇà*/
+/*ì¼ë°˜í´ë˜ìŠ¤ë¥¼ ìƒì†í•˜ì—¬ ì˜¤ë²„ë¼ì´ë”© ìˆ˜í–‰*/
 
 class Animal{
 	void cry() {
@@ -9,12 +9,12 @@ class Animal{
 }
 class Cat extends Animal{
 	void cry() {
-		System.out.println("¾ß¿Ë");
+		System.out.println("ì•¼ì˜¹");
 	}	
 }
 class Dog extends Animal{
 	void cry() {
-		System.out.println("¸Û¸Û");
+		System.out.println("ë©ë©");
 	}	
 }
 
@@ -23,10 +23,10 @@ public class EX01_abstractmodifier_1 {
 	public static void main(String[] args) {
 		
 		Animal animal1 = new Cat();
-		animal1.cry(); //¾ß¿Ë
+		animal1.cry(); //ì•¼ì˜¹
 		
 		Animal animal2 = new Dog();
-		animal2.cry(); //¸Û¸Û
+		animal2.cry(); //ë©ë©
 	}
 
 }

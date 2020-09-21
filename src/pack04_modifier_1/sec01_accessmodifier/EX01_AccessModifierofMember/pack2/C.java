@@ -1,15 +1,15 @@
-package pack04_modifier_1.sec01_accessmodifier.EX01_AccessModifierofMember.pack2;
+ï»¿package pack04_modifier_1.sec01_accessmodifier.EX01_AccessModifierofMember.pack2;
 
 import pack04_modifier_1.sec01_accessmodifier.EX01_AccessModifierofMember.pack1.A;
 
 public class C {
 	
-	public void print(){ //a »ç¿ë°¡´É
-		A a = new A(); //°´Ã¼»ı¼º °¡´É
-	    System.out.println(a.a); //»ç¿ë°¡´É
-	    //System.out.println(a.b); //»ç¿ëºÒ°¡´É
-	    //System.out.println(a.c); //»ç¿ëºÒ°¡´É
-	    //System.out.println(a.d); //»ç¿ëºÒ°¡´É 
+	public void print(){ //a ì‚¬ìš©ê°€ëŠ¥
+		A a = new A(); //ê°ì²´ìƒì„± ê°€ëŠ¥
+	    System.out.println(a.a); //ì‚¬ìš©ê°€ëŠ¥
+	    //System.out.println(a.b); //ì‚¬ìš©ë¶ˆê°€ëŠ¥
+	    //System.out.println(a.c); //ì‚¬ìš©ë¶ˆê°€ëŠ¥
+	    //System.out.println(a.d); //ì‚¬ìš©ë¶ˆê°€ëŠ¥ 
 	}
 
 }

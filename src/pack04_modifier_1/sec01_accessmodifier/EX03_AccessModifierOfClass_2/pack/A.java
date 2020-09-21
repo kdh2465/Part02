@@ -1,6 +1,6 @@
-package pack04_modifier_1.sec01_accessmodifier.EX03_AccessModifierOfClass_2.pack;
+ï»¿package pack04_modifier_1.sec01_accessmodifier.EX03_AccessModifierOfClass_2.pack;
 
-//public Å¬·¡½º
+//public í´ë˜ìŠ¤
 public class A {
-	//public ±âº» »ı¼ºÀÚ ÀÚµ¿ Ãß°¡
+	//public ê¸°ë³¸ ìƒì„±ì ìë™ ì¶”ê°€
 }

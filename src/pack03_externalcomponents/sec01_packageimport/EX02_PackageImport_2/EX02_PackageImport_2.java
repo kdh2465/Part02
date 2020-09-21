@@ -1,8 +1,8 @@
-package pack03_externalcomponents.sec01_packageimport.EX02_PackageImport_2;
+ï»¿package pack03_externalcomponents.sec01_packageimport.EX02_PackageImport_2;
 
 import pack03_externalcomponents.sec01_packageimport.common.A;
 
-/*¿ÜºÎÆĞÅ°ÁöÀÇ Å¬·¡½º »ç¿ë¹æ¹ı #2 (ÀÓÆ÷Æ® ±¸¹® »ç¿ë)*/
+/*ì™¸ë¶€íŒ¨í‚¤ì§€ì˜ í´ë˜ìŠ¤ ì‚¬ìš©ë°©ë²• #2 (ì„í¬íŠ¸ êµ¬ë¬¸ ì‚¬ìš©)*/
 
 public class EX02_PackageImport_2 {
 	public static void main(String[] args) {

@@ -1,6 +1,6 @@
-package pack08_innerclassandinterface.sec05_innerinterface.EX02_ButtonAPIExample;
+ï»¿package pack08_innerclassandinterface.sec05_innerinterface.EX02_ButtonAPIExample;
 
-/*ÀÏ¹İÀûÀÎ UI APIÀÇ ±¸Á¶ ¿¹½Ã (¹öÆ°)*/
+/*ì¼ë°˜ì ì¸ UI APIì˜ êµ¬ì¡° ì˜ˆì‹œ (ë²„íŠ¼)*/
 
 class Button{
 	OnClickListener ocl;
@@ -18,22 +18,22 @@ class Button{
 public class EX02_ButtonAPIExample {
 	public static void main(String[] args) {
 		
-		//#1. °³¹ßÀÚ 1. Å¬¸¯ÇßÀ»¶§ À½¾ÇÀç»ı
+		//#1. ê°œë°œì 1. í´ë¦­í–ˆì„ë•Œ ìŒì•…ì¬ìƒ
 		Button button1 = new Button();
 		button1.setOnClickListener(new Button.OnClickListener() {
 			@Override
 			public void onClick() {
-				System.out.println("°³¹ßÀÚ1. À½¾Ç Àç»ı");
+				System.out.println("ê°œë°œì1. ìŒì•… ì¬ìƒ");
 			}
 		});
 		button1.click();
 		
-		//#2. °³¹ßÀÚ2. Å¬¸¯ÇßÀ»¶§ ³×ÀÌ¹ö Á¢¼Ó
+		//#2. ê°œë°œì2. í´ë¦­í–ˆì„ë•Œ ë„¤ì´ë²„ ì ‘ì†
 		Button button2 = new Button();
 		button2.setOnClickListener(new Button.OnClickListener() {
 			@Override
 			public void onClick() {
-				System.out.println("°³¹ßÀÚ2. ³×ÀÌ¹ö Á¢¼Ó");
+				System.out.println("ê°œë°œì2. ë„¤ì´ë²„ ì ‘ì†");
 			}
 		});
 		button2.click();

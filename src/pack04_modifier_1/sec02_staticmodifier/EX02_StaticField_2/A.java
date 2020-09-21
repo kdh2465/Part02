@@ -1,6 +1,6 @@
-package pack04_modifier_1.sec02_staticmodifier.EX02_StaticField_2;
+ï»¿package pack04_modifier_1.sec02_staticmodifier.EX02_StaticField_2;
 
 public class A {
-	int m=3;		//ÀÎ½ºÅÏ½º ÇÊµå
-	static int n=5;	//static ÇÊµå
+	int m=3;		//ì¸ìŠ¤í„´ìŠ¤ í•„ë“œ
+	static int n=5;	//static í•„ë“œ
 }

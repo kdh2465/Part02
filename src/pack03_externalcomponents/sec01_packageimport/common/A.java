@@ -1,4 +1,4 @@
-package pack03_externalcomponents.sec01_packageimport.common;
+ï»¿package pack03_externalcomponents.sec01_packageimport.common;
 
 public class A {
 	
@@ -6,7 +6,7 @@ public class A {
 	public int n=4;
 	  
 	public void print(){
-		System.out.println("ÀÓÆ÷Æ®");
+		System.out.println("ì„í¬íŠ¸");
 	}
 
 }

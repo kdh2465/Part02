@@ -1,7 +1,7 @@
-
+ï»¿
 package pack02_internalcomponents.sec02_method.EX06_methodOverloading;
 
-/*¸Ş¼­µåÀÇ ¿À¹ö·Îµù(Overloading)*/
+/*ë©”ì„œë“œì˜ ì˜¤ë²„ë¡œë”©(Overloading)*/
 
 public class EX06_methodOverloading {
 	public static void main(String[] args) {
@@ -14,7 +14,7 @@ public class EX06_methodOverloading {
 	}
 	
 	public static void print(){
-		System.out.println("µ¥ÀÌÅÍ°¡ ¾ø½À´Ï´Ù");
+		System.out.println("ë°ì´í„°ê°€ ì—†ìŠµë‹ˆë‹¤");
 	}
 	public static void print(int a){
 		System.out.println(a);
@@ -27,6 +27,6 @@ public class EX06_methodOverloading {
 	}	
 //	public static int print(int a, int b){
 //		return a+b;
-//	} //¿À¹ö·Îµå ºÒ°¡
+//	} //ì˜¤ë²„ë¡œë“œ ë¶ˆê°€
 			
 }

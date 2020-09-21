@@ -1,15 +1,15 @@
-package pack04_modifier_1.sec01_accessmodifier.EX03_AccessModifierOfClass_2;
+ï»¿package pack04_modifier_1.sec01_accessmodifier.EX03_AccessModifierOfClass_2;
 
 import pack04_modifier_1.sec01_accessmodifier.EX03_AccessModifierOfClass_2.pack.A;
 
-/*´Ù¸¥ ÆĞÅ°Áö¿¡¼­ÀÇ Å¬·¡½º Á¢±ÙÁöÁ¤ÀÚ vs. »ı¼ºÀÚ Á¢±ÙÁöÁ¤ÀÚ*/
+/*ë‹¤ë¥¸ íŒ¨í‚¤ì§€ì—ì„œì˜ í´ë˜ìŠ¤ ì ‘ê·¼ì§€ì •ì vs. ìƒì„±ì ì ‘ê·¼ì§€ì •ì*/
 
 public class EX03_AccessModifierOfClass_2 {
 	public static void main(String[] args) {
 		
-		A a = new A(); //°´Ã¼ »ı¼º °¡´É = »ı¼ºÀÚ È£Ãâ °¡´É
-		//B b = new B(); //Å¬·¡½º ÀÚÃ¼ »ç¿ë ºÒ°¡ (import ºÒ°¡´É)
-		//C c = new C(); //»ı¼ºÀÚ È£Ãâ ºÒ°¡
+		A a = new A(); //ê°ì²´ ìƒì„± ê°€ëŠ¥ = ìƒì„±ì í˜¸ì¶œ ê°€ëŠ¥
+		//B b = new B(); //í´ë˜ìŠ¤ ìì²´ ì‚¬ìš© ë¶ˆê°€ (import ë¶ˆê°€ëŠ¥)
+		//C c = new C(); //ìƒì„±ì í˜¸ì¶œ ë¶ˆê°€
 		
 	}
 }

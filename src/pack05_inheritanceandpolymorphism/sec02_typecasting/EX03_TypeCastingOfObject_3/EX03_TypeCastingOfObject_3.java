@@ -1,6 +1,6 @@
-package pack05_inheritanceandpolymorphism.sec02_typecasting.EX03_TypeCastingOfObject_3;
+ï»¿package pack05_inheritanceandpolymorphism.sec02_typecasting.EX03_TypeCastingOfObject_3;
 
-/*Ä³½ºÆÃÀÇ °¡´É¿©ºÎ¸¦ È®ÀÎÇÒ ¼ö ÀÖ´Â instanceof*/
+/*ìºìŠ¤íŒ…ì˜ ê°€ëŠ¥ì—¬ë¶€ë¥¼ í™•ì¸í•  ìˆ˜ ìˆëŠ” instanceof*/
 
 class A{}
 class B extends A{}
@@ -20,20 +20,20 @@ public class EX03_TypeCastingOfObject_3 {
 		
 		if(aa instanceof B) {			
 			B b = (B)aa;
-			System.out.println("aa¸¦ B·Î castingÀ» ¿Ï·áÇÏ¿´½À´Ï´Ù.");
+			System.out.println("aaë¥¼ Bë¡œ castingì„ ì™„ë£Œí•˜ì˜€ìŠµë‹ˆë‹¤.");
 		} else {
-			System.out.println("aa´Â B·Î castingÀ» ÇÒ ¼ö ¾ø½À´Ï´Ù.");
+			System.out.println("aaëŠ” Bë¡œ castingì„ í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.");
 		}
 		
 		if(ab instanceof B) {			
 			B b = (B)ab;
-			System.out.println("ab¸¦ B·Î castingÀ» ¿Ï·áÇÏ¿´½À´Ï´Ù.");
+			System.out.println("abë¥¼ Bë¡œ castingì„ ì™„ë£Œí•˜ì˜€ìŠµë‹ˆë‹¤.");
 		} else {
-			System.out.println("ab´Â B·Î castingÀ» ÇÒ ¼ö ¾ø½À´Ï´Ù.");
+			System.out.println("abëŠ” Bë¡œ castingì„ í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.");
 		}
 		
-		if("¾È³ç" instanceof String) {
-			System.out.println("\"¾È³ç\"Àº String ÀÔ´Ï´Ù.");
+		if("ì•ˆë…•" instanceof String) {
+			System.out.println("\"ì•ˆë…•\"ì€ String ì…ë‹ˆë‹¤.");
 		}				
 	}
 }

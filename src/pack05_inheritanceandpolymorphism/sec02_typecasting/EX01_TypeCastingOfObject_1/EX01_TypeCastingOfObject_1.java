@@ -1,6 +1,6 @@
-package pack05_inheritanceandpolymorphism.sec02_typecasting.EX01_TypeCastingOfObject_1;
+ï»¿package pack05_inheritanceandpolymorphism.sec02_typecasting.EX01_TypeCastingOfObject_1;
 
-/*Å¬·¡½ºÀÇ ¾÷Ä³½ºÆÃ ¹× ´Ù¿îÄ³½ºÆÃ*/
+/*í´ë˜ìŠ¤ì˜ ì—…ìºìŠ¤íŒ… ë° ë‹¤ìš´ìºìŠ¤íŒ…*/
 
 class A{ }
 class B extends A{ }
@@ -10,19 +10,19 @@ class D extends B{ }
 public class EX01_TypeCastingOfObject_1 {
 	public static void main(String[] args) {
 
-		//#1. ¾÷Ä³½ºÆÃ (»ı·«½Ã ÀÚµ¿Ãß°¡)
+		//#1. ì—…ìºìŠ¤íŒ… (ìƒëµì‹œ ìë™ì¶”ê°€)
 		A ac = (A)new C(); //A ac = new C();		
 		B bc = (B)new C(); //B bc = new C();
 		
 		B bb = new B();
 		A a = (A)bb; //A a = b;
 		
-		//#2. ´Ù¿îÄ³½ºÆÃ (¼öµ¿¸¸ °¡´É) : ºÒ°¡´ÉÇÑ °æ¿ì
+		//#2. ë‹¤ìš´ìºìŠ¤íŒ… (ìˆ˜ë™ë§Œ ê°€ëŠ¥) : ë¶ˆê°€ëŠ¥í•œ ê²½ìš°
 		A aa = new A();
-		//B b = (B)aa; // ¿À·ù
-		//C c = (C)aa; // ¿À·ù
+		//B b = (B)aa; // ì˜¤ë¥˜
+		//C c = (C)aa; // ì˜¤ë¥˜
 		
-		//#3. ´Ù¿îÄ³½ºÆÃ (¼öµ¿¸¸ °¡´É) : °¡´ÉÇÑ °æ¿ì
+		//#3. ë‹¤ìš´ìºìŠ¤íŒ… (ìˆ˜ë™ë§Œ ê°€ëŠ¥) : ê°€ëŠ¥í•œ ê²½ìš°
 		A ab = new B();
 		B b = (B)ab; 
 		

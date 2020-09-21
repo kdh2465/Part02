@@ -1,6 +1,6 @@
-package pack05_inheritanceandpolymorphism.sec01_inheritancepolymorphism.EX01_ClassInheritance;
+ï»¿package pack05_inheritanceandpolymorphism.sec01_inheritancepolymorphism.EX01_ClassInheritance;
 
-/*Å¬·¡½ºÀÇ »ó¼Ó°ú »ç¿ë°¡´ÉÇÑ ¸â¹ö*/
+/*í´ë˜ìŠ¤ì˜ ìƒì†ê³¼ ì‚¬ìš©ê°€ëŠ¥í•œ ë©¤ë²„*/
 
 class Human{
 	String name;
@@ -22,25 +22,25 @@ class Worker extends Human {
 
 public class EX01_ClassInheritance {
 	public static void main(String[] args) {
-		//#1. Human °´Ã¼ »ı¼º ¹× ÇÊµå/¸Ş¼­µå »ç¿ë (ÇÊµå2°³, ¸Ş¼­µå2°³)
+		//#1. Human ê°ì²´ ìƒì„± ë° í•„ë“œ/ë©”ì„œë“œ ì‚¬ìš© (í•„ë“œ2ê°œ, ë©”ì„œë“œ2ê°œ)
 		Human h = new Human();		
-		h.name="È«±æµ¿";
+		h.name="í™ê¸¸ë™";
 		h.age=16;
 		h.eat();
 		h.sleep();
 		
-		//#2. Student °´Ã¼ »ı¼º ¹× ÇÊµå/¸Ş¼­µå »ç¿ë (ÇÊµå 2+1°³, ¸Ş¼­µå 2+1°³)
+		//#2. Student ê°ì²´ ìƒì„± ë° í•„ë“œ/ë©”ì„œë“œ ì‚¬ìš© (í•„ë“œ 2+1ê°œ, ë©”ì„œë“œ 2+1ê°œ)
 		Student s = new Student();
-		s.name="±è¹Î¼º";
+		s.name="ê¹€ë¯¼ì„±";
 		s.age=15;
 		s.studentID=128;
 		s.eat();
 		s.sleep();
 		s.goToSchool();
 		
-		//#3. Worker °´Ã¼ »ı¼º ¹× ÇÊµå/¸Ş¼­µå »ç¿ë (ÇÊµå 2+1°³, ¸Ş¼­µå 2+1°³)
+		//#3. Worker ê°ì²´ ìƒì„± ë° í•„ë“œ/ë©”ì„œë“œ ì‚¬ìš© (í•„ë“œ 2+1ê°œ, ë©”ì„œë“œ 2+1ê°œ)
 		Worker w = new Worker();
-		w.name="±èÇöÁö";
+		w.name="ê¹€í˜„ì§€";
 		w.age=30;
 		w.workerID=128;
 		w.eat();

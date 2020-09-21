@@ -1,6 +1,6 @@
-package pack08_innerclassandinterface.sec01_instanceinnerclass.EX01_CreateObjectAndAccessMember;
+ï»¿package pack08_innerclassandinterface.sec01_instanceinnerclass.EX01_CreateObjectAndAccessMember;
 
-/*ÀÎ½ºÅÏ½º ÀÌ³ÊÅ¬·¡½ºÀÇ ¿ÜºÎ ¸â¹ö »ç¿ë ¹× °´Ã¼ »ı¼º*/
+/*ì¸ìŠ¤í„´ìŠ¤ ì´ë„ˆí´ë˜ìŠ¤ì˜ ì™¸ë¶€ ë©¤ë²„ ì‚¬ìš© ë° ê°ì²´ ìƒì„±*/
 
 class A {
 	public int a = 3;
@@ -9,17 +9,17 @@ class A {
 	private int d = 6;
 	
 	void abc() {
-		System.out.println("A Å¬·¡½º  ¸Ş¼­µå");		
+		System.out.println("A í´ë˜ìŠ¤  ë©”ì„œë“œ");		
 	}
 	
 	class B {
 		void bcd() {
-			//#1. outer class ÇÊµå »ç¿ë
+			//#1. outer class í•„ë“œ ì‚¬ìš©
 			System.out.println(a);
 			System.out.println(b);
 			System.out.println(c);
 			System.out.println(d);
-			//#2. outer class ¸Ş¼­µå »ç¿ë
+			//#2. outer class ë©”ì„œë“œ ì‚¬ìš©
 			abc();
 		}
 	}
@@ -27,10 +27,10 @@ class A {
 
 public class EX01_CreateObjectAndAccessMember {
 	public static void main(String[] args) {
-		//#3. instance inner Å¬·¡½º °´Ã¼ »ı¼º
-		//@3.1. outer class °´Ã¼ »ı¼º
+		//#3. instance inner í´ë˜ìŠ¤ ê°ì²´ ìƒì„±
+		//@3.1. outer class ê°ì²´ ìƒì„±
 		A a = new A();
-		//@3.2 outer ÂüÁ¶º¯¼ö·Î ºÎÅÍ innerÅ¬·¡½º °´Ã¼ »ı¼º
+		//@3.2 outer ì°¸ì¡°ë³€ìˆ˜ë¡œ ë¶€í„° innerí´ë˜ìŠ¤ ê°ì²´ ìƒì„±
 		A.B b = a.new B();
 		b.bcd();
 	}

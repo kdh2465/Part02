@@ -1,6 +1,6 @@
-package pack04_modifier_1.sec02_staticmodifier.EX02_StaticField_2;
+ï»¿package pack04_modifier_1.sec02_staticmodifier.EX02_StaticField_2;
 
-/*Á¤ÀûÇÊµåÀÇ °øÀ¯±â´É*/
+/*ì •ì í•„ë“œì˜ ê³µìœ ê¸°ëŠ¥*/
 
 public class EX02_StaticField_2 {
 	public static void main(String[] args) {
@@ -8,15 +8,15 @@ public class EX02_StaticField_2 {
 		A a1 = new A();
 		A a2 = new A();
 
-		a1.m=5;	//ÀÎ½ºÅÏ½º ÇÊµå
-		a2.m=6;	//ÀÎ½ºÅÏ½º ÇÊµå
+		a1.m=5;	//ì¸ìŠ¤í„´ìŠ¤ í•„ë“œ
+		a2.m=6;	//ì¸ìŠ¤í„´ìŠ¤ í•„ë“œ
 
 		System.out.println(a1.m); //5
 		System.out.println(a2.m); //6
 		
-		//# static ÇÊµåÀÇ °øÀ¯
-		a1.n=7; //static ÇÊµå 
-		a2.n=8; //static ÇÊµå 
+		//# static í•„ë“œì˜ ê³µìœ 
+		a1.n=7; //static í•„ë“œ 
+		a2.n=8; //static í•„ë“œ 
 
 		System.out.println(a1.n); //8
 		System.out.println(a2.n); //8

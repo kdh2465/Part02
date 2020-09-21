@@ -1,38 +1,38 @@
-package pack05_inheritanceandpolymorphism.sec05_superkeywordandsupermethod.EX04_supermethod_2;
+ï»¿package pack05_inheritanceandpolymorphism.sec05_superkeywordandsupermethod.EX04_supermethod_2;
 
-/*this()¸Þ¼­µå¿Í super() ¸Þ¼­µåÀÇ È¥¿ë*/
+/*this()ë©”ì„œë“œì™€ super() ë©”ì„œë“œì˜ í˜¼ìš©*/
 
 class A {
 	A() {
 		this(3);
-		System.out.println("A »ý¼ºÀÚ1");
+		System.out.println("A ìƒì„±ìž1");
 	}
 	A(int a) {
-		System.out.println("A »ý¼ºÀÚ2");
+		System.out.println("A ìƒì„±ìž2");
 	}
 }
 
 class B extends A {
 	B() {
 		this(3);
-		System.out.println("B »ý¼ºÀÚ1");
+		System.out.println("B ìƒì„±ìž1");
 	}
 	B(int a) {
-		System.out.println("B »ý¼ºÀÚ2");
+		System.out.println("B ìƒì„±ìž2");
 	}
 }
 
 public class EX04_supermethod_2 {
 	public static void main(String[] args) {
 		
-		//#1. A °´Ã¼ »ý¼º
-		A aa1 = new A(); 	// A »ý¼ºÀÚ2 -> A »ý¼ºÀÚ1 
-		A aa2 = new A(2); 	// A »ý¼ºÀÚ2
+		//#1. A ê°ì²´ ìƒì„±
+		A aa1 = new A(); 	// A ìƒì„±ìž2 -> A ìƒì„±ìž1 
+		A aa2 = new A(2); 	// A ìƒì„±ìž2
 		System.out.println();
 		
-		//#2. B °´Ã¼ »ý¼º
-		B bb1 = new B();	// A »ý¼ºÀÚ2 -> A »ý¼ºÀÚ1 -> B »ý¼ºÀÚ2 -> B »ý¼ºÀÚ1
-		B bb2 = new B(2);	// A »ý¼ºÀÚ2 -> A »ý¼ºÀÚ1 -> B »ý¼ºÀÚ2
+		//#2. B ê°ì²´ ìƒì„±
+		B bb1 = new B();	// A ìƒì„±ìž2 -> A ìƒì„±ìž1 -> B ìƒì„±ìž2 -> B ìƒì„±ìž1
+		B bb2 = new B(2);	// A ìƒì„±ìž2 -> A ìƒì„±ìž1 -> B ìƒì„±ìž2
 
 	}
 }

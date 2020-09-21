@@ -1,18 +1,18 @@
-package pack04_modifier_1.sec02_staticmodifier.EX01_StaticField_1;
+ï»¿package pack04_modifier_1.sec02_staticmodifier.EX01_StaticField_1;
 
-/*ÀÎ½ºÅÏ½º ÇÊµå¿Í Á¤ÀûÇÊµåÀÇ È°¿ë ¹æ¹ı*/
+/*ì¸ìŠ¤í„´ìŠ¤ í•„ë“œì™€ ì •ì í•„ë“œì˜ í™œìš© ë°©ë²•*/
 
 public class EX01_StaticField_1 {
 	public static void main(String[] args) {
 	
-		//#1. ÀÎ½ºÅÏ½º ÇÊµå È°¿ë ¹æ¹ı (1.°´Ã¼ »ı¼º  2.ÇÊµå»ç¿ë)
+		//#1. ì¸ìŠ¤í„´ìŠ¤ í•„ë“œ í™œìš© ë°©ë²• (1.ê°ì²´ ìƒì„±  2.í•„ë“œì‚¬ìš©)
 		A a1 = new A();
 		System.out.println(a1.m); 	//3
 				
-		//#2. static ÇÊµå È°¿ë ¹æ¹ı 
-		//@¹æ¹ı #1 (1.Å¬·¡½ºÀÌ¸§À¸·Î ¹Ù·Î Á¢±Ù)
+		//#2. static í•„ë“œ í™œìš© ë°©ë²• 
+		//@ë°©ë²• #1 (1.í´ë˜ìŠ¤ì´ë¦„ìœ¼ë¡œ ë°”ë¡œ ì ‘ê·¼)
 		System.out.println(A.n); 	//5
-		//@¹æ¹ı #2 (1.°´Ã¼ »ı¼º  2.ÇÊµå»ç¿ë)
+		//@ë°©ë²• #2 (1.ê°ì²´ ìƒì„±  2.í•„ë“œì‚¬ìš©)
 		A a2 = new A();
 		System.out.println(a2.n); 	//5
 				
